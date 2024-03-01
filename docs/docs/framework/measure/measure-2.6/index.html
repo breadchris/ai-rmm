@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.6 # The AI system is evaluated regularly for safety risks – as identified in the map function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.6 # The AI system is evaluated regularly for safety risks – as identified in the map function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/measure/measure-2.6/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Measure 2.6 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/measure/measure-2.6/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle"  />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle"  />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle" checked />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="active">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Measure 2.6</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#measure-26">Measure 2.6</a>
+          <ul>
+            <li><a href="#measure-261-establish-a-safety-risk-evaluation-framework">Measure 2.6.1. Establish a Safety Risk Evaluation Framework.</a></li>
+            <li><a href="#measure-262-develop-safety-metrics-and-thresholds">Measure 2.6.2. Develop Safety Metrics and Thresholds.</a></li>
+            <li><a href="#measure-263-conduct-regular-safety-risk-assessments">Measure 2.6.3. Conduct Regular Safety Risk Assessments.</a></li>
+            <li><a href="#measure-264-prioritize-safety-risk-mitigation">Measure 2.6.4. Prioritize Safety Risk Mitigation.</a></li>
+            <li><a href="#measure-265-implement-safe-fail-mechanisms">Measure 2.6.5. Implement Safe Fail Mechanisms.</a></li>
+            <li><a href="#measure-266-continuous-safety-risk-monitoring">Measure 2.6.6. Continuous Safety Risk Monitoring.</a></li>
+            <li><a href="#measure-267-document-safety-risk-evaluation-and-mitigation">Measure 2.6.7. Document Safety Risk Evaluation and Mitigation.</a></li>
+            <li><a href="#measure-268-continuously-evaluate-and-enhance-safety-risk-management">Measure 2.6.8. Continuously Evaluate and Enhance Safety Risk Management.</a></li>
+            <li><a href="#measure-26-suggested-work-products">Measure 2.6 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h2 id="measure-26">
+  Measure 2.6
+  <a class="anchor" href="#measure-26">#</a>
+</h2>
+<blockquote>
+<p>The AI system is evaluated regularly for safety risks – as identified in the map function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits. Safety metrics reflect system reliability and robustness, real-time monitoring, and response times for AI system failures. [@playbook]</p>
+</blockquote>
+<h3 id="measure-261-establish-a-safety-risk-evaluation-framework">
+  Measure 2.6.1. Establish a Safety Risk Evaluation Framework.
+  <a class="anchor" href="#measure-261-establish-a-safety-risk-evaluation-framework">#</a>
+</h3>
+<p>Establishing a comprehensive safety risk evaluation framework is crucial for assessing and mitigating potential hazards associated with AI systems. This framework should encompass a systematic approach to identifying safety risks, assessing their severity and likelihood, and developing strategies to mitigate these risks effectively. By taking into account the potential impact of these risks on individuals, organizations, and society, the framework ensures that all safety concerns are thoroughly evaluated and addressed, maintaining the integrity and trustworthiness of the AI system.</p>
+<p>Defining clear criteria for residual negative risk levels is essential within this framework. It helps determine the acceptability of remaining risks after mitigation efforts and whether additional measures are needed. This process ensures that the AI system&rsquo;s deployment does not exceed the organization&rsquo;s risk tolerance and that it can operate safely, even when pushed beyond its knowledge limits. By continuously monitoring and adjusting these criteria based on real-world performance and feedback, organizations can maintain a dynamic and responsive approach to managing safety risks in AI systems.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Define a comprehensive framework for evaluating safety risks associated with the AI system, incorporating the identification, assessment, and mitigation of potential safety hazards.</p>
+</li>
+<li>
+<p>Identify and categorize safety risks based on their severity, likelihood, and potential impact on individuals, organizations, or society.</p>
+</li>
+<li>
+<p>Establish clear criteria for determining whether residual negative risk levels are acceptable or require further mitigation.</p>
+</li>
+</ol>
+<h3 id="measure-262-develop-safety-metrics-and-thresholds">
+  Measure 2.6.2. Develop Safety Metrics and Thresholds.
+  <a class="anchor" href="#measure-262-develop-safety-metrics-and-thresholds">#</a>
+</h3>
+<p>Developing comprehensive safety metrics and thresholds is essential for monitoring and ensuring the AI system&rsquo;s safety and reliability. These metrics, both quantitative and qualitative, should accurately reflect the system&rsquo;s robustness, its ability to be monitored in real-time, and the responsiveness to potential failures. Establishing these metrics provides a clear, measurable way to assess the system&rsquo;s performance against safety standards, facilitating ongoing evaluations of its operational integrity and the effectiveness of safety protocols.</p>
+<p>Defining precise thresholds for each safety metric is crucial in determining the AI system&rsquo;s compliance with organizational safety standards and risk tolerance levels. These thresholds act as benchmarks for acceptable performance, guiding decisions on whether the system&rsquo;s safety measures are sufficient or require enhancement. By continuously monitoring these metrics against defined thresholds, organizations can ensure that the AI system operates within safe parameters, maintaining a balance between functionality and safety, and can adapt to evolving safety requirements.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>Establish quantitative and qualitative safety metrics to assess the AI system&rsquo;s ability to operate safely and reliably.</p>
+</li>
+<li>
+<p>Metrics should reflect system reliability and robustness, real-time monitoring capabilities, and response times for AI system failures.</p>
+</li>
+<li>
+<p>Define thresholds for each safety metric to determine whether the AI system meets the organization&rsquo;s safety standards and risk tolerance.</p>
+</li>
+</ol>
+<h3 id="measure-263-conduct-regular-safety-risk-assessments">
+  Measure 2.6.3. Conduct Regular Safety Risk Assessments.
+  <a class="anchor" href="#measure-263-conduct-regular-safety-risk-assessments">#</a>
+</h3>
+<p>Conducting regular safety risk assessments at every stage of the AI system&rsquo;s lifecycle is fundamental to maintaining its safety and reliability. These assessments, carried out during development, testing, and deployment, ensure that safety risks are continuously identified and addressed, keeping pace with changes in the system&rsquo;s functionality and operational environment. This proactive approach to safety management allows for the early detection of potential hazards, enabling timely interventions and minimizing the risk of safety incidents.</p>
+<p>As the AI system evolves and its deployment context changes, it&rsquo;s crucial to remain vigilant for new and emerging safety risks. Regular reassessment of the system&rsquo;s safety profile and the effectiveness of existing mitigation strategies is necessary to ensure that safety measures remain effective. Adjustments to these measures may be required to counteract newly identified risks or to enhance the system&rsquo;s overall safety. This iterative process of assessment and adjustment ensures that the AI system can maintain high safety standards throughout its operational life, adapting to new challenges and maintaining alignment with organizational risk tolerance.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Conduct regular safety risk assessments throughout the AI system&rsquo;s lifecycle, including during development, testing, and deployment phases.</p>
+</li>
+<li>
+<p>Identify new or emerging safety risks as the AI system evolves and its environment changes.</p>
+</li>
+<li>
+<p>Assess the effectiveness of mitigation strategies and adjust safety measures as needed.</p>
+</li>
+</ol>
+<h3 id="measure-264-prioritize-safety-risk-mitigation">
+  Measure 2.6.4. Prioritize Safety Risk Mitigation.
+  <a class="anchor" href="#measure-264-prioritize-safety-risk-mitigation">#</a>
+</h3>
+<p>Prioritizing safety risks is essential to ensuring that the most critical safety issues within an AI system are addressed promptly and effectively. This involves assessing each identified risk based on its severity, likelihood of occurrence, and potential impact on the system and its users. By focusing on the most significant risks first, organizations can allocate resources more efficiently, ensuring that the measures implemented have the greatest possible effect on enhancing the system&rsquo;s overall safety.</p>
+<p>Developing and implementing targeted mitigation strategies for these prioritized risks is the next crucial step. Each strategy should be tailored to effectively address the specific nature and context of the risk it targets. Following implementation, the effectiveness of these strategies must be continuously evaluated, with adjustments made as necessary to ensure their continued efficacy. This dynamic approach to risk mitigation allows for the agile adaptation of safety measures, ensuring that the AI system remains as safe as possible in the face of evolving challenges and operational environments.</p>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Prioritize safety risks based on their severity, likelihood, and potential impact, ensuring that the most critical safety issues are addressed first.</p>
+</li>
+<li>
+<p>Develop and implement appropriate mitigation strategies to address identified safety risks.</p>
+</li>
+<li>
+<p>Evaluate the effectiveness of mitigation strategies and make necessary adjustments.</p>
+</li>
+</ol>
+<h3 id="measure-265-implement-safe-fail-mechanisms">
+  Measure 2.6.5. Implement Safe Fail Mechanisms.
+  <a class="anchor" href="#measure-265-implement-safe-fail-mechanisms">#</a>
+</h3>
+<p>Implementing safe fail mechanisms is a critical aspect of ensuring an AI system&rsquo;s safety, designed to manage unexpected or hazardous situations gracefully. These mechanisms are engineered to allow the system to degrade functionality or terminate operations safely, minimizing potential harm or disruption. Key components of safe fail mechanisms include the ability to detect and isolate failures promptly, mechanisms to mitigate the impact of such failures, and systems to alert users or operators of the issue. This multifaceted approach ensures that when failures occur, the system can handle them in a way that prioritizes safety and minimizes negative consequences.</p>
+<p>Testing and evaluating these safe fail mechanisms are essential to confirm their effectiveness and reliability. Through rigorous testing under various scenarios, including those that simulate potential failure modes, organizations can assess whether these mechanisms activate appropriately and perform as expected. This evaluation process is crucial for identifying any weaknesses or areas for improvement in the fail-safe designs, ensuring that the AI system can be trusted to handle operational anomalies safely and efficiently.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Design and implement safe fail mechanisms within the AI system to ensure graceful degradation or termination in case of unexpected or hazardous situations.</p>
+</li>
+<li>
+<p>Safe fail mechanisms should include mechanisms to identify and isolate failures, reduce the impact of failures, and provide warnings or alerts to users or operators.</p>
+</li>
+<li>
+<p>Test and evaluate safe fail mechanisms to ensure their effectiveness and reliability.</p>
+</li>
+</ol>
+<h3 id="measure-266-continuous-safety-risk-monitoring">
+  Measure 2.6.6. Continuous Safety Risk Monitoring.
+  <a class="anchor" href="#measure-266-continuous-safety-risk-monitoring">#</a>
+</h3>
+<p>Establishing a continuous safety risk monitoring system is paramount for maintaining the AI system&rsquo;s integrity and operational safety. This system should be capable of tracking the AI system&rsquo;s ongoing performance, identifying any deviations from expected behavior that could indicate potential safety issues. By proactively detecting anomalies and safety-related concerns, organizations can address issues before they escalate, ensuring the AI system operates within safe parameters. Implementing such a monitoring system ensures a persistent vigilance over the system&rsquo;s safety, facilitating swift identification and resolution of issues that could compromise safety or performance.</p>
+<p>Incorporating real-time monitoring capabilities enhances the system&rsquo;s ability to provide immediate feedback on its safety status, allowing for rapid response to any identified risks. This immediate awareness is crucial for maintaining control over the system&rsquo;s operational safety and ensuring that any potential threats are managed promptly. Additionally, establishing clear escalation procedures for critical safety alerts is essential. It guarantees that significant safety concerns are communicated quickly to the relevant decision-makers, ensuring timely and effective intervention. This structured approach to safety risk management underscores an organization&rsquo;s commitment to maintaining the highest safety standards for its AI systems.</p>
+<h4 id="sub-practices-5">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-5">#</a>
+</h4>
+<ol>
+<li>
+<p>Establish a continuous safety risk monitoring system to track the AI system&rsquo;s performance, identify potential anomalies, and detect safety-related issues proactively.</p>
+</li>
+<li>
+<p>Implement real-time monitoring capabilities to provide immediate feedback on the AI system&rsquo;s safety status.</p>
+</li>
+<li>
+<p>Implement clear escalation procedures for critical safety alerts to ensure timely intervention and mitigation.</p>
+</li>
+</ol>
+<h3 id="measure-267-document-safety-risk-evaluation-and-mitigation">
+  Measure 2.6.7. Document Safety Risk Evaluation and Mitigation.
+  <a class="anchor" href="#measure-267-document-safety-risk-evaluation-and-mitigation">#</a>
+</h3>
+<p>Maintaining a comprehensive record of safety risk evaluations, mitigation strategies, and test results is crucial for ensuring the AI system&rsquo;s ongoing safety and reliability. This documentation provides a detailed account of the safety assessments conducted, the rationale for prioritizing certain risks, and the effectiveness of the mitigation strategies implemented. Such records not only serve as a historical reference but also facilitate the continuous improvement of safety measures by providing insights into what strategies have been successful and where adjustments are needed. Documenting the decision-making process behind safety measures also enhances transparency and accountability, ensuring that safety practices are grounded in rigorous analysis and systematic evaluation.</p>
+<p>Sharing this safety documentation with relevant stakeholders, including developers, operators, and risk managers, is essential for promoting a culture of safety and collaboration. By making this information accessible, all parties involved in the AI system&rsquo;s lifecycle are informed about its safety status and the measures in place to mitigate risks. This shared understanding fosters a proactive approach to safety management, where stakeholders can contribute to the ongoing evaluation and enhancement of safety practices. Moreover, this collaborative environment supports informed decision-making, ensuring that safety remains a paramount concern in the development and operation of AI systems.</p>
+<h4 id="sub-practices-6">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-6">#</a>
+</h4>
+<ol>
+<li>
+<p>Maintain a comprehensive record of safety risk evaluations, mitigation strategies, and test results.</p>
+</li>
+<li>
+<p>Document the rationale behind risk prioritization, mitigation choices, and safety decision-making processes.</p>
+</li>
+<li>
+<p>Share safety risk documentation with relevant stakeholders, including developers, operators, and risk managers.</p>
+</li>
+</ol>
+<h3 id="measure-268-continuously-evaluate-and-enhance-safety-risk-management">
+  Measure 2.6.8. Continuously Evaluate and Enhance Safety Risk Management.
+  <a class="anchor" href="#measure-268-continuously-evaluate-and-enhance-safety-risk-management">#</a>
+</h3>
+<p>Continuous evaluation and enhancement of safety risk management practices are vital for ensuring the enduring safety of AI systems. This process involves regularly assessing the effectiveness of current safety measures and identifying potential areas for improvement. As the AI system evolves and new challenges emerge, it&rsquo;s crucial to adapt and refine safety strategies to address these changes effectively. This ongoing evaluation ensures that the safety risk management framework remains robust and responsive to the dynamic nature of AI technologies and operational environments.</p>
+<p>Soliciting feedback from a wide range of stakeholders, including developers, operators, and users, is essential for gaining diverse perspectives on the AI system&rsquo;s safety. This feedback can provide valuable insights into the system&rsquo;s performance in real-world settings, highlighting potential safety concerns that may not have been evident during initial assessments. Additionally, staying abreast of emerging safety risks and advancements in safety engineering allows organizations to proactively update their safety measures. By integrating the latest best practices and technologies into their safety risk management framework, organizations can ensure that their AI systems maintain the highest safety standards in the face of evolving threats and technological progress.</p>
+<h4 id="sub-practices-7">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-7">#</a>
+</h4>
+<ol>
+<li>
+<p>Regularly evaluate the effectiveness of the AI system&rsquo;s safety risk management practices, identifying areas for improvement and adapting strategies as the system evolves.</p>
+</li>
+<li>
+<p>Gather feedback from stakeholders, including developers, operators, and users, to refine safety risk assessment and mitigation approaches.</p>
+</li>
+<li>
+<p>Stay informed about emerging safety risks and technological advancements in safety engineering to maintain the AI system&rsquo;s safety posture.</p>
+</li>
+</ol>
+<h3 id="measure-26-suggested-work-products">
+  Measure 2.6 Suggested Work Products
+  <a class="anchor" href="#measure-26-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>Safety Risk Evaluation Framework Document - A comprehensive document outlining the framework for evaluating safety risks, including identification, assessment, and mitigation processes.</li>
+<li>Safety Risk Register - A detailed log of identified safety risks categorized by severity, likelihood, and potential impact, including their current status and mitigation measures.</li>
+<li>Residual Risk Acceptance Criteria - Documentation defining clear criteria for determining the acceptability of residual risks post-mitigation efforts.</li>
+<li>Safety Metrics and Thresholds Report - A report specifying the quantitative and qualitative metrics used to evaluate the AI system&rsquo;s safety and the thresholds set for each metric.</li>
+<li>Safety Risk Assessment Reports - Periodic reports from regular safety risk assessments throughout the AI system&rsquo;s lifecycle, documenting findings and recommendations.</li>
+<li>Safety Risk Mitigation Plan - A strategic plan detailing prioritized safety risks and the specific mitigation strategies to be implemented, including timelines and responsible parties.</li>
+<li>Safe Fail Mechanisms Design Document - Technical documentation on the design and implementation of safe fail mechanisms within the AI system, including test results confirming their effectiveness.</li>
+<li>Safety Enhancement Review Report - An annual or bi-annual report summarizing the outcomes of the continuous evaluation and enhancement efforts for safety risk management practices, including stakeholder feedback and updates to safety measures.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/measure/measure-2.6.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#measure-26">Measure 2.6</a>
+          <ul>
+            <li><a href="#measure-261-establish-a-safety-risk-evaluation-framework">Measure 2.6.1. Establish a Safety Risk Evaluation Framework.</a></li>
+            <li><a href="#measure-262-develop-safety-metrics-and-thresholds">Measure 2.6.2. Develop Safety Metrics and Thresholds.</a></li>
+            <li><a href="#measure-263-conduct-regular-safety-risk-assessments">Measure 2.6.3. Conduct Regular Safety Risk Assessments.</a></li>
+            <li><a href="#measure-264-prioritize-safety-risk-mitigation">Measure 2.6.4. Prioritize Safety Risk Mitigation.</a></li>
+            <li><a href="#measure-265-implement-safe-fail-mechanisms">Measure 2.6.5. Implement Safe Fail Mechanisms.</a></li>
+            <li><a href="#measure-266-continuous-safety-risk-monitoring">Measure 2.6.6. Continuous Safety Risk Monitoring.</a></li>
+            <li><a href="#measure-267-document-safety-risk-evaluation-and-mitigation">Measure 2.6.7. Document Safety Risk Evaluation and Mitigation.</a></li>
+            <li><a href="#measure-268-continuously-evaluate-and-enhance-safety-risk-management">Measure 2.6.8. Continuously Evaluate and Enhance Safety Risk Management.</a></li>
+            <li><a href="#measure-26-suggested-work-products">Measure 2.6 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

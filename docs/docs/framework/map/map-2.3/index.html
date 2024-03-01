@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 2.3 # Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation. [@playbook]
+Map 2.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 2.3 # Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation. [@playbook]
+Map 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/map/map-2.3/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Map 2.3 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/map/map-2.3/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle"  />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle" checked />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="active">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle"  />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Map 2.3</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#map-23">Map 2.3</a>
+          <ul>
+            <li><a href="#map-231-establish-a-scientific-integrity-framework">Map 2.3.1. Establish a Scientific Integrity Framework.</a></li>
+            <li><a href="#map-232-implement-robust-experimental-design">Map 2.3.2. Implement Robust Experimental Design.</a></li>
+            <li><a href="#map-233-ensure-data-quality-and-representativeness">Map 2.3.3. Ensure Data Quality and Representativeness.</a></li>
+            <li><a href="#map-234-assess-system-trustworthiness">Map 2.3.4. Assess System Trustworthiness.</a></li>
+            <li><a href="#map-235-validate-ai-system-construct">Map 2.3.5. Validate AI System Construct.</a></li>
+            <li><a href="#map-236-document-scientific-integrity-and-tevv-considerations">Map 2.3.6. Document Scientific Integrity and TEVV Considerations.</a></li>
+            <li><a href="#map-237-conduct-regular-reviews-and-updates">Map 2.3.7. Conduct Regular Reviews and Updates.</a></li>
+            <li><a href="#map-23-suggested-work-products">Map 2.3 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h2 id="map-23">
+  Map 2.3
+  <a class="anchor" href="#map-23">#</a>
+</h2>
+<blockquote>
+<p>Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation. [@playbook]</p>
+</blockquote>
+<h3 id="map-231-establish-a-scientific-integrity-framework">
+  Map 2.3.1. Establish a Scientific Integrity Framework.
+  <a class="anchor" href="#map-231-establish-a-scientific-integrity-framework">#</a>
+</h3>
+<p>Establishing a scientific integrity framework involves creating a structured approach to ensure the reliability, validity, and transparency of AI systems throughout their development and deployment lifecycle. This framework encompasses guidelines and standards for experimental design, data collection, and selection processes, ensuring that data used are available, representative, and suitable for the intended purpose. Additionally, it addresses system trustworthiness by defining measures to enhance transparency, accountability, and reproducibility in AI development practices. By establishing a scientific integrity framework, organizations can uphold ethical standards, mitigate biases, and foster public trust in AI technologies.</p>
+<p>Establishing a scientific integrity framework involves developing and implementing comprehensive guidelines to ensure the integrity of AI development. This includes defining standards for experimental design, data collection, evaluation, and interpretation, as well as establishing clear guidelines for preventing and addressing biases, conflicts of interest, and other ethical concerns.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Develop and implement a comprehensive framework for ensuring scientific integrity throughout the AI development lifecycle.</p>
+</li>
+<li>
+<p>Clearly define standards for experimental design, data collection, evaluation, and interpretation.</p>
+</li>
+<li>
+<p>Establish clear guidelines for preventing and addressing biases, conflicts of interest, and other ethical concerns.</p>
+</li>
+</ol>
+<h3 id="map-232-implement-robust-experimental-design">
+  Map 2.3.2. Implement Robust Experimental Design.
+  <a class="anchor" href="#map-232-implement-robust-experimental-design">#</a>
+</h3>
+<p>Implementing robust experimental design involves developing systematic procedures and protocols to ensure the reliability and validity of AI experiments. This includes carefully planning and controlling variables, randomizing treatments, and minimizing biases to enhance the accuracy and generalizability of findings. Additionally, it entails selecting appropriate sample sizes, utilizing control groups where applicable, and documenting methodologies rigorously to enable reproducibility and facilitate peer review. By adhering to robust experimental design principles, AI researchers can enhance the credibility and scientific integrity of their work, leading to more reliable and trustworthy AI systems.</p>
+<p>Employing rigorous experimental design principles ensures the reliability and validity of AI systems by randomizing data collection and treatment assignment to minimize bias and confounding factors. Additionally, controlling for extraneous variables helps isolate the effects of the AI system, enhancing the accuracy and robustness of experimental findings.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>Employ rigorous experimental design principles to ensure the reliability and validity of AI systems.</p>
+</li>
+<li>
+<p>Randomize data collection and treatment assignment to minimize bias and confounding factors.</p>
+</li>
+<li>
+<p>Control for extraneous variables to isolate the effects of the AI system.</p>
+</li>
+</ol>
+<h3 id="map-233-ensure-data-quality-and-representativeness">
+  Map 2.3.3. Ensure Data Quality and Representativeness.
+  <a class="anchor" href="#map-233-ensure-data-quality-and-representativeness">#</a>
+</h3>
+<p>To ensure data quality and representativeness, it&rsquo;s essential to implement rigorous protocols for data collection, curation, and validation throughout the AI system development process. This involves verifying the accuracy, completeness, and relevance of the data sources, as well as assessing their representativeness of the target population or domain. Additionally, measures should be in place to address biases, errors, and inconsistencies in the data, ensuring that the AI system learns from reliable and diverse information to make informed decisions and predictions.</p>
+<p>Assessing data quality involves rigorously examining datasets, identifying errors, inconsistencies, and missing values, and employing corrective measures. Ensuring representativeness entails evaluating if the training data effectively mirrors the target population and usage scenarios. Additionally, addressing data bias is crucial to prevent the AI system from unintentionally perpetuating discriminatory or unfair practices.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Implement rigorous data quality assessment procedures to identify and address data errors, inconsistencies, and missing values.</p>
+</li>
+<li>
+<p>Evaluate the representativeness of the training data to ensure it accurately reflects the target population and usage scenarios.</p>
+</li>
+<li>
+<p>Address data bias and ensure that the AI system is not inadvertently perpetuating discriminatory or unfair practices.</p>
+</li>
+</ol>
+<h3 id="map-234-assess-system-trustworthiness">
+  Map 2.3.4. Assess System Trustworthiness.
+  <a class="anchor" href="#map-234-assess-system-trustworthiness">#</a>
+</h3>
+<p>Evaluating system trustworthiness involves conducting thorough assessments to ensure the reliability, security, and ethical soundness of the AI system throughout its lifecycle. This includes examining the robustness of algorithms, assessing model interpretability, verifying data integrity, and validating system outputs against predefined criteria. Additionally, scrutinizing the transparency of decision-making processes and addressing potential biases or vulnerabilities are integral aspects of assessing system trustworthiness.</p>
+<p>Assessing system trustworthiness involves developing and evaluating metrics to gauge various aspects of AI systems, encompassing accuracy, fairness, explainability, robustness, and security. Rigorous testing and validation are conducted to ensure compliance with acceptable performance standards, with ongoing monitoring and auditing mechanisms in place to detect and rectify potential issues.</p>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Develop and evaluate metrics to assess the trustworthiness of AI systems, including accuracy, fairness, explainability, robustness, and security.</p>
+</li>
+<li>
+<p>Conduct rigorous testing and validation to ensure that the AI system meets acceptable performance standards.</p>
+</li>
+<li>
+<p>Implement mechanisms for monitoring and auditing AI system behavior to identify and address potential issues.</p>
+</li>
+</ol>
+<h3 id="map-235-validate-ai-system-construct">
+  Map 2.3.5. Validate AI System Construct.
+  <a class="anchor" href="#map-235-validate-ai-system-construct">#</a>
+</h3>
+<p>Validating the construct of an AI system involves confirming that its underlying principles and mechanisms align with its intended purpose and objectives. This process entails examining the conceptual framework of the system, verifying that it accurately represents the desired phenomena or behaviors, and ensuring that the system&rsquo;s architecture and functionality support its intended use cases. Through comprehensive validation, organizations can ascertain the reliability and effectiveness of the AI system in fulfilling its designated tasks and objectives, thereby bolstering confidence in its capabilities and outputs.</p>
+<p>Validating the construct of an AI system involves various sub-practices aimed at ensuring its accuracy and reliability in measuring the intended concept or construct. This includes comparing system outputs against benchmarks or expert judgment, employing diverse methods and metrics to assess validity, and continuously validating the system&rsquo;s performance to maintain reliability and consistency.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Perform construct validation to ensure that the AI system is measuring the intended concept or construct accurately and consistently.</p>
+</li>
+<li>
+<p>Validate AI system outputs against established benchmarks or expert judgment.</p>
+</li>
+<li>
+<p>Use multiple methods and metrics to assess construct validity and ensure the reliability of AI system measurements.</p>
+</li>
+</ol>
+<h3 id="map-236-document-scientific-integrity-and-tevv-considerations">
+  Map 2.3.6. Document Scientific Integrity and TEVV Considerations.
+  <a class="anchor" href="#map-236-document-scientific-integrity-and-tevv-considerations">#</a>
+</h3>
+<p>To comprehensively document scientific integrity and TEVV (Testing, Evaluation, Verification, and Validation) considerations within the framework of AI-RMM practices, it&rsquo;s essential to detail all aspects related to experimental design, data collection, system trustworthiness, and construct validation. This documentation should encompass methodologies used, data sources, quality assessments, trustworthiness metrics, and validation processes employed. Additionally, it should highlight any challenges encountered, decisions made, and the rationale behind them, ensuring transparency and accountability in the AI development process while facilitating informed decision-making and subsequent actions by relevant stakeholders.</p>
+<p>Detailing the scientific integrity and TEVV considerations applied throughout the AI development process involves creating comprehensive documentation outlining the specific experimental design choices, data collection methods, evaluation criteria, and trustworthiness assessments. This documentation should explain the reasoning behind these decisions and provide supporting evidence for their validity, ensuring transparency and accountability in the development process while facilitating informed decision-making by relevant stakeholders.</p>
+<h4 id="sub-practices-5">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-5">#</a>
+</h4>
+<ol>
+<li>
+<p>Create comprehensive documentation that outlines the scientific integrity and TEVV considerations that were applied throughout the AI development process.</p>
+</li>
+<li>
+<p>Detail the specific experimental design choices, data collection methods, evaluation criteria, and trustworthiness assessments.</p>
+</li>
+<li>
+<p>Explain the reasoning behind these decisions and provide supporting evidence for their validity.</p>
+</li>
+</ol>
+<h3 id="map-237-conduct-regular-reviews-and-updates">
+  Map 2.3.7. Conduct Regular Reviews and Updates.
+  <a class="anchor" href="#map-237-conduct-regular-reviews-and-updates">#</a>
+</h3>
+<p>Conducting regular reviews and updates is essential to ensure that scientific integrity and TEVV considerations remain up-to-date and aligned with evolving standards and best practices. This involves periodically revisiting the documented experimental design, data collection processes, trustworthiness assessments, and construct validation methods to identify any gaps or areas for improvement. By incorporating feedback from stakeholders, monitoring changes in the AI landscape, and staying informed about emerging methodologies, organizations can continuously enhance the robustness and reliability of their AI systems while maintaining adherence to scientific integrity and TEVV principles.</p>
+<p>Continuously reviewing and updating documentation on scientific integrity and TEVV considerations is crucial for keeping pace with the evolving nature of the AI system. This involves soliciting feedback from stakeholders and experts to refine the framework and enhance its effectiveness, while maintaining a dynamic document that reflects the ongoing learning and improvement process in AI development.</p>
+<h4 id="sub-practices-6">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-6">#</a>
+</h4>
+<ol>
+<li>
+<p>Regularly review and update documentation on scientific integrity and TEVV considerations to reflect the evolving state of the AI system.</p>
+</li>
+<li>
+<p>Incorporate feedback from stakeholders and experts to refine the framework and ensure its effectiveness.</p>
+</li>
+<li>
+<p>Maintain a living document that captures the continuous learning and improvement process related to scientific integrity and TEVV in AI development.</p>
+</li>
+</ol>
+<h3 id="map-23-suggested-work-products">
+  Map 2.3 Suggested Work Products
+  <a class="anchor" href="#map-23-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>Scientific Integrity Framework Document - A comprehensive document outlining the organization&rsquo;s framework for ensuring scientific integrity throughout the AI development lifecycle, including guidelines for experimental design, data collection, and ethical considerations.</li>
+<li>Data Quality and Representativeness Report - An assessment report detailing the procedures for data collection, curation, and validation, along with measures taken to address data biases and ensure representativeness.</li>
+<li>System Trustworthiness Assessment - A thorough evaluation of the AI system&rsquo;s reliability, security, and ethical soundness, including metrics for accuracy, fairness, explainability, and robustness.</li>
+<li>AI System Construct Validation Report - Documentation validating the AI system&rsquo;s construct, ensuring its alignment with intended purposes and objectives, including benchmark comparisons and validity assessments.</li>
+<li>TEVV Documentation Package - Comprehensive documentation detailing the experimental design choices, data collection methods, evaluation criteria, trustworthiness assessments, and the reasoning behind these decisions.</li>
+<li>Stakeholder Feedback and Review Summary - A summary of feedback from stakeholders and experts on the scientific integrity framework and TEVV considerations, including actions taken in response to feedback.</li>
+<li>Regular Review and Update Logs - Logs and records of regular reviews and updates made to the scientific integrity framework and TEVV considerations, reflecting the continuous improvement process.</li>
+<li>Ethics and Bias Mitigation Guidelines - Guidelines and protocols for identifying, preventing, and addressing ethical concerns and biases in AI development, including conflict of interest policies.</li>
+<li>Transparency and Accountability Procedures - Procedures and methodologies for enhancing the transparency and accountability of AI development practices, including decision-making processes and model interpretability strategies.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/map/map-2.3.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#map-23">Map 2.3</a>
+          <ul>
+            <li><a href="#map-231-establish-a-scientific-integrity-framework">Map 2.3.1. Establish a Scientific Integrity Framework.</a></li>
+            <li><a href="#map-232-implement-robust-experimental-design">Map 2.3.2. Implement Robust Experimental Design.</a></li>
+            <li><a href="#map-233-ensure-data-quality-and-representativeness">Map 2.3.3. Ensure Data Quality and Representativeness.</a></li>
+            <li><a href="#map-234-assess-system-trustworthiness">Map 2.3.4. Assess System Trustworthiness.</a></li>
+            <li><a href="#map-235-validate-ai-system-construct">Map 2.3.5. Validate AI System Construct.</a></li>
+            <li><a href="#map-236-document-scientific-integrity-and-tevv-considerations">Map 2.3.6. Document Scientific Integrity and TEVV Considerations.</a></li>
+            <li><a href="#map-237-conduct-regular-reviews-and-updates">Map 2.3.7. Conduct Regular Reviews and Updates.</a></li>
+            <li><a href="#map-23-suggested-work-products">Map 2.3 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

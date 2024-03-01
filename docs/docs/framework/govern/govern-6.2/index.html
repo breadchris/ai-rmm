@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Govern 6.2 # Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. [@playbook]
+Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems. # To effectively manage potential failures or incidents in third-party data or AI systems, it&rsquo;s essential to first identify those considered high-risk.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Govern 6.2 # Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. [@playbook]
+Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems. # To effectively manage potential failures or incidents in third-party data or AI systems, it&rsquo;s essential to first identify those considered high-risk." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/govern/govern-6.2/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Govern 6.2 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/govern/govern-6.2/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle" checked />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="active">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle"  />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle"  />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Govern 6.2</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#govern-62">Govern 6.2</a>
+          <ul>
+            <li><a href="#govern-621-identify-high-risk-third-party-data-and-ai-systems">Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems.</a></li>
+            <li><a href="#govern-622-establish-contingency-plans">Govern 6.2.2. Establish Contingency Plans.</a></li>
+            <li><a href="#govern-623-implement-contingency-testing">Govern 6.2.3. Implement Contingency Testing.</a></li>
+            <li><a href="#govern-624-establish-communication-channels">Govern 6.2.4. Establish Communication Channels.</a></li>
+            <li><a href="#govern-625-establish-a-process-for-reviewing-and-updating-contingency-plans">Govern 6.2.5. Establish a Process for Reviewing and Updating Contingency Plans.</a></li>
+            <li><a href="#govern-62-suggested-work-products">Govern 6.2 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h2 id="govern-62">
+  Govern 6.2
+  <a class="anchor" href="#govern-62">#</a>
+</h2>
+<blockquote>
+<p>Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. [@playbook]</p>
+</blockquote>
+<h3 id="govern-621-identify-high-risk-third-party-data-and-ai-systems">
+  Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems.
+  <a class="anchor" href="#govern-621-identify-high-risk-third-party-data-and-ai-systems">#</a>
+</h3>
+<p>To effectively manage potential failures or incidents in third-party data or AI systems, it&rsquo;s essential to first identify those considered high-risk. This entails assessing various factors, such as data quality, security vulnerabilities, and the criticality of the AI systems relying on them. By conducting thorough evaluations and risk assessments, organizations can pinpoint high-risk third-party data and AI systems and prioritize their contingency planning efforts accordingly. This proactive approach enables organizations to implement targeted strategies for mitigating risks and ensuring resilience in the face of potential failures or incidents.</p>
+<p>Defining criteria for identifying high-risk third-party data and AI systems involves considering various factors, including the sensitivity of the data, the criticality of the AI system, and the reputation of the provider. Regularly reviewing and updating this list ensures that it remains aligned with evolving risk profiles, enabling organizations to adapt their contingency processes effectively.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Clearly define criteria for identifying high-risk third-party data and AI systems.</p>
+</li>
+<li>
+<p>Consider factors such as the sensitivity of the data, the criticality of the AI system, and the reputation of the third-party provider.</p>
+</li>
+<li>
+<p>Regularly review and update the list of high-risk third-party data and AI systems to reflect changes in risk profiles.</p>
+</li>
+</ol>
+<h3 id="govern-622-establish-contingency-plans">
+  Govern 6.2.2. Establish Contingency Plans.
+  <a class="anchor" href="#govern-622-establish-contingency-plans">#</a>
+</h3>
+<p>To effectively address failures or incidents in third-party data or AI systems identified as high-risk, organizations must establish robust contingency plans. These plans should outline clear steps and procedures for responding to emergencies, mitigating risks, and minimizing disruptions to operations. Additionally, they should designate responsible individuals or teams and establish communication protocols to ensure swift and coordinated action in case of emergencies. Regular testing and updating of contingency plans are essential to maintaining their effectiveness and readiness.</p>
+<p>Addressing failures or incidents in high-risk third-party data or AI systems involves developing contingency plans. These plans should assign roles and responsibilities for responding to incidents and restoring operations, while also outlining procedures for identifying alternative sources of data or AI capabilities. Regular testing and updating of these plans are essential to ensure their effectiveness in mitigating risks and minimizing disruptions.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>Develop contingency plans for addressing failures or incidents in high-risk third-party data or AI systems.</p>
+</li>
+<li>
+<p>Define roles and responsibilities for responding to incidents and restoring operations.</p>
+</li>
+<li>
+<p>Outline procedures for identifying alternative sources of data or AI capabilities.</p>
+</li>
+</ol>
+<h3 id="govern-623-implement-contingency-testing">
+  Govern 6.2.3. Implement Contingency Testing.
+  <a class="anchor" href="#govern-623-implement-contingency-testing">#</a>
+</h3>
+<p>Implementing contingency testing involves simulating potential failures or incidents in high-risk third-party data or AI systems to assess the effectiveness of contingency plans. By conducting these tests, organizations can identify gaps or weaknesses in their response procedures and make necessary adjustments to improve preparedness. Contingency testing should be performed regularly and rigorously to ensure that teams are adequately trained and systems are resilient enough to handle unexpected events. Additionally, lessons learned from testing should be used to refine contingency plans and enhance overall risk management strategies.</p>
+<p>Regularly testing contingency plans is essential for ensuring their effectiveness and keeping them up-to-date. By simulating potential failures or incidents, organizations can identify gaps or weaknesses in the plans, allowing them to make necessary modifications and improvements. This proactive approach helps enhance the overall readiness and resilience of the organization to handle unexpected events in third-party data or AI systems.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Conduct regular testing of contingency plans to ensure they are effective and up-to-date.</p>
+</li>
+<li>
+<p>Simulate potential failures or incidents to identify any gaps or weaknesses in the plans.</p>
+</li>
+<li>
+<p>Make necessary modifications to improve the effectiveness of contingency plans.</p>
+</li>
+</ol>
+<h3 id="govern-624-establish-communication-channels">
+  Govern 6.2.4. Establish Communication Channels.
+  <a class="anchor" href="#govern-624-establish-communication-channels">#</a>
+</h3>
+<p>Establishing communication channels is crucial for effective management of failures or incidents in high-risk third-party data or AI systems. These channels should facilitate timely and transparent communication among all stakeholders involved in the contingency process, including internal teams, third-party providers, and relevant authorities. Clear lines of communication help ensure that everyone is informed about the situation, enabling swift coordination of response efforts and minimizing potential disruptions. Regular updates and feedback mechanisms should also be incorporated into these communication channels to maintain situational awareness and facilitate continuous improvement of contingency processes.</p>
+<p>Establishing clear communication channels with third-party providers of high-risk data and AI systems is crucial. These channels ensure timely notification of potential incidents or disruptions, allowing the organization to respond promptly and effectively. Maintaining open and transparent communication fosters effective collaboration during incident response, enabling all parties to work together towards resolution and minimizing the impact on operations.</p>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Establish clear communication channels with third-party providers of high-risk data and AI systems.</p>
+</li>
+<li>
+<p>Define protocols for notifying the organization of potential incidents or disruptions.</p>
+</li>
+<li>
+<p>Maintain open and transparent communication to facilitate effective collaboration during incident response.</p>
+</li>
+</ol>
+<h3 id="govern-625-establish-a-process-for-reviewing-and-updating-contingency-plans">
+  Govern 6.2.5. Establish a Process for Reviewing and Updating Contingency Plans.
+  <a class="anchor" href="#govern-625-establish-a-process-for-reviewing-and-updating-contingency-plans">#</a>
+</h3>
+<p>Establishing a process for reviewing and updating contingency plans is essential for ensuring their effectiveness in handling failures or incidents in high-risk third-party data or AI systems. This process involves regular evaluations to identify any changes in risks, technology, or business requirements that may necessitate updates to the plans. Additionally, it includes incorporating lessons learned from previous incidents to enhance the resilience and responsiveness of the contingency plans over time. By continuously reviewing and updating these plans, organizations can better mitigate the impact of potential disruptions and maintain operational continuity.</p>
+<p>Regularly reviewing and updating contingency plans is crucial for adapting to evolving risks, technologies, and third-party relationships. This process involves actively gathering feedback from stakeholders and incorporating their insights into plan revisions, ensuring ongoing effectiveness in handling potential failures or incidents.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Establish a process for regularly reviewing and updating contingency plans to reflect changes in risks, technologies, and third-party relationships.</p>
+</li>
+<li>
+<p>Gather feedback from relevant stakeholders, including AI developers, operators, and business leaders.</p>
+</li>
+<li>
+<p>Incorporate feedback into the revision of contingency plans to ensure their effectiveness.</p>
+</li>
+</ol>
+<h3 id="govern-62-suggested-work-products">
+  Govern 6.2 Suggested Work Products
+  <a class="anchor" href="#govern-62-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>Risk Assessment Report - A document detailing high-risk third-party data and AI systems, including criteria for risk identification and factors considered (sensitivity, criticality, provider reputation).</li>
+<li>Comprehensive Contingency Plans - A set of plans documenting clear steps, procedures, roles, and responsibilities for responding to incidents in high-risk third-party systems.</li>
+<li>Contingency Plan Testing Schedule and Reports - A set of reports to document the regular testing of contingency plans, including simulations of failures or incidents, identified gaps, and subsequent plan adjustments.</li>
+<li>Communication Protocol - Documentation establishing clear channels and procedures for internal and external communications related to third-party data or AI system incidents.</li>
+<li>Incident Response Communication Procedures - Templates and Checklists to standardize and expedite communication during emergencies.</li>
+<li>Contingency Plan Review and Update Logs - A set of logs that record the periodic assessment of contingency plans and incorporate changes based on evolving risks, technology, and business requirements.</li>
+<li>Stakeholder Feedback Collection Mechanism - Feedback mechanism for gathering insights from AI developers, operators, business leaders, and third-party providers to inform contingency plan updates.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/govern/govern-6.2.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#govern-62">Govern 6.2</a>
+          <ul>
+            <li><a href="#govern-621-identify-high-risk-third-party-data-and-ai-systems">Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems.</a></li>
+            <li><a href="#govern-622-establish-contingency-plans">Govern 6.2.2. Establish Contingency Plans.</a></li>
+            <li><a href="#govern-623-implement-contingency-testing">Govern 6.2.3. Implement Contingency Testing.</a></li>
+            <li><a href="#govern-624-establish-communication-channels">Govern 6.2.4. Establish Communication Channels.</a></li>
+            <li><a href="#govern-625-establish-a-process-for-reviewing-and-updating-contingency-plans">Govern 6.2.5. Establish a Process for Reviewing and Updating Contingency Plans.</a></li>
+            <li><a href="#govern-62-suggested-work-products">Govern 6.2 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI RMM</title>
+    <link>https://airmm.github.io/docs/framework/map/</link>
+    <description>Recent content on AI RMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://airmm.github.io/docs/framework/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1 # Context is established and understood. [@airmf]
+Map 1.1 # Intended purposes, potentially beneficial uses, context-specific laws, norms and expectations, and prospective settings in which the AI system will be deployed are understood and documented.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.2 # Interdisciplinary AI actors, competencies, skills, and capacities for establishing context reflect demographic diversity and broad domain and user experience expertise, and their participation is documented. Opportunities for interdisciplinary collaboration are prioritized.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.3 # The organization’s mission and relevant goals for AI technology are understood and documented. [@playbook]
+Map 1.3.1. Articulate a Clear and Comprehensive Mission Statement. # A well-crafted mission statement serves as the guiding beacon for the organization&amp;rsquo;s AI initiatives, encapsulating its core values, objectives, and ethical considerations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.4/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.4 # The business value or context of business use has been clearly defined or – in the case of assessing existing AI systems – re-evaluated. [@playbook]
+Map 1.4.1. Clearly Define the Business Value of AI Systems.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.5/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.5 # Organizational risk tolerances are determined and documented. [@playbook]
+Map 1.5.1. Establish an Organizational Risk Tolerance Framework. # Establishing an organizational risk tolerance framework is essential for effectively managing risks associated with AI implementation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-1.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-1.6/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.6 # System requirements (e.g., “the system shall respect the privacy of its users”) are elicited from and understood by relevant AI actors. Design decisions take socio-technical implications into account to address AI risks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-2.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-2.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 2 # Categorization of the AI system is performed. [@airmf]
+Map 2.1 # The specific tasks and methods used to implement the tasks that the AI system will support are defined (e.g., classifiers, generative models, recommenders).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-2.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 2.2 # Information about the AI system’s knowledge limits and how system output may be utilized and overseen by humans is documented. Documentation provides sufficient information to assist relevant AI actors when making decisions and taking subsequent actions.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-2.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 2.3 # Scientific integrity and TEVV considerations are identified and documented, including those related to experimental design, data collection and selection (e.g., availability, representativeness, suitability), system trustworthiness, and construct validation. [@playbook]
+Map 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-3.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-3.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 3 # AI capabilities, targeted usage, goals, and expected benefits and costs compared with appropriate benchmarks are understood. [@airmf]
+Map 3.1 # Potential benefits of intended AI system functionality and performance are examined and documented.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-3.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-3.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 3.2 # Potential costs, including non-monetary costs, which result from expected or realized AI errors or system functionality and trustworthiness – as connected to organizational risk tolerance – are examined and documented. [@playbook]</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-3.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-3.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 3.3 # Targeted application scope is specified and documented based on the system’s capability, established context, and AI system categorization. [@playbook]
+Map 3.3.1. Clearly Define AI System Capabilities. # Clearly defining AI system capabilities involves thoroughly outlining the range of functions, tasks, and operations that the AI system is designed to perform.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-3.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-3.4/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 3.4 # Processes for operator and practitioner proficiency with AI system performance and trustworthiness – and relevant technical standards and certifications – are defined, assessed, and documented. [@playbook]
+Map 3.4.1. Establish Clear Proficiency Requirements.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-3.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-3.5/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 3.5 # Processes for human oversight are defined, assessed, and documented in accordance with organizational policies from the govern function. [@playbook]
+Map 3.5.1. Establish Human Oversight Roles and Responsibilities. # To establish human oversight roles and responsibilities within AI systems, organizations must define clear guidelines and assign specific tasks to individuals responsible for monitoring and managing AI operations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-4.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-4.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 4 # Risks and benefits are mapped for all components of the AI system including third-party software and data. [@airmf]
+Map 4.1 # Approaches for mapping AI technology and legal risks of its components – including the use of third-party data or software – are in place, followed, and documented, as are risks of infringement of a third party’s intellectual property or other rights.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-4.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-4.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 4.2 # Internal risk controls for components of the AI system, including third-party AI technologies, are identified and documented. [@playbook]
+Map 4.2.1. Identify and Assess Internal Risks for AI Components. # To effectively manage the internal risks associated with AI components, it&amp;rsquo;s crucial to conduct a comprehensive identification and assessment process.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-5.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-5.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 5 # Impacts to individuals, groups, communities, organizations, and society are characterized. [@airmf]
+Map 5.1 # Likelihood and magnitude of each identified impact (both potentially beneficial and harmful) based on expected use, past uses of AI systems in similar contexts, public incident reports, feedback from those external to the team that developed or deployed the AI system, or other data are identified and documented.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/map/map-5.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/map/map-5.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 5.2 # Practices and personnel for supporting regular engagement with relevant AI actors and integrating feedback about positive, negative, and unanticipated impacts are in place and documented. [@playbook]
+Map 5.2.1. Establish a Mechanism for Regular Engagement.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2 # AI systems are evaluated for trustworthy characteristics. [@airmf]
+Measure 2.1 # Test sets, metrics, and details about the tools used during Test &amp; Evaluation, Validation &amp; Verification (TEVV) are documented. [@playbook]">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2 # AI systems are evaluated for trustworthy characteristics. [@airmf]
+Measure 2.1 # Test sets, metrics, and details about the tools used during Test &amp; Evaluation, Validation &amp; Verification (TEVV) are documented. [@playbook]" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/measure/measure-2.1/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Measure 2.1 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/measure/measure-2.1/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle"  />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle"  />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle" checked />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="active">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Measure 2.1</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#measure-2">Measure 2</a>
+      <ul>
+        <li><a href="#measure-21">Measure 2.1</a>
+          <ul>
+            <li><a href="#measure-211-develop-and-document-test-sets">Measure 2.1.1. Develop and Document Test Sets.</a></li>
+            <li><a href="#measure-212-establish-clear-test-metrics">Measure 2.1.2. Establish Clear Test Metrics.</a></li>
+            <li><a href="#measure-213-identify-and-document-testing-tools">Measure 2.1.3. Identify and Document Testing Tools.</a></li>
+            <li><a href="#measure-214-establish-test-execution-procedures">Measure 2.1.4. Establish Test Execution Procedures.</a></li>
+            <li><a href="#measure-215-integrate-testing-into-development-lifecycle">Measure 2.1.5. Integrate Testing into Development Lifecycle.</a></li>
+            <li><a href="#measure-216-document-testing-results-and-insights">Measure 2.1.6. Document Testing Results and Insights.</a></li>
+            <li><a href="#measure-217-continuously-evaluate-and-adapt-testing-approach">Measure 2.1.7. Continuously Evaluate and Adapt Testing Approach.</a></li>
+            <li><a href="#measure-21-suggested-work-products">Measure 2.1 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h1 id="measure-2">
+  Measure 2
+  <a class="anchor" href="#measure-2">#</a>
+</h1>
+<blockquote>
+<p>AI systems are evaluated for trustworthy characteristics. [@airmf]</p>
+</blockquote>
+<h2 id="measure-21">
+  Measure 2.1
+  <a class="anchor" href="#measure-21">#</a>
+</h2>
+<blockquote>
+<p>Test sets, metrics, and details about the tools used during Test &amp; Evaluation, Validation &amp; Verification (TEVV) are documented. [@playbook]</p>
+</blockquote>
+<h3 id="measure-211-develop-and-document-test-sets">
+  Measure 2.1.1. Develop and Document Test Sets.
+  <a class="anchor" href="#measure-211-develop-and-document-test-sets">#</a>
+</h3>
+<p>Creating and maintaining comprehensive records of test datasets is crucial for ensuring the reliability and integrity of AI systems. This involves not only the meticulous compilation of the data used in testing but also detailed annotations and metadata that describe the dataset&rsquo;s characteristics, sources, and any preprocessing steps undertaken. Such documentation facilitates transparency and reproducibility, allowing for more effective debugging and refinement of AI models, as well as enabling peer review and validation by the broader community.</p>
+<p>Incorporating a variety of scenarios, inputs, and potential errors into comprehensive test sets is essential to evaluate the AI system&rsquo;s functionality, performance, and trustworthiness. Tailoring these test sets to the specific AI system and its application domain is crucial, taking into account potential biases, ethical considerations, and the impact on communities involved. Additionally, thorough documentation of the reasons behind the chosen test cases, the rationale for excluding particular scenarios, and the overarching strategy for test coverage is vital to ensure transparency and accountability in the system&rsquo;s evaluation process.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Create comprehensive test sets that encompass a wide range of scenarios, inputs, and potential errors, covering the AI system&rsquo;s functionality, performance, and trustworthiness characteristics.</p>
+</li>
+<li>
+<p>Ensure that test sets are tailored to the specific AI system and its application domain, considering potential biases, ethical implications, and potential impacts on affected communities.</p>
+</li>
+<li>
+<p>Document the rationale behind the selection of test cases, justifications for excluding certain scenarios, and the overall test coverage strategy.</p>
+</li>
+</ol>
+<h3 id="measure-212-establish-clear-test-metrics">
+  Measure 2.1.2. Establish Clear Test Metrics.
+  <a class="anchor" href="#measure-212-establish-clear-test-metrics">#</a>
+</h3>
+<p>Setting precise and relevant metrics for testing is crucial in assessing the performance and reliability of AI systems. These metrics should not only reflect the system&rsquo;s ability to perform its intended tasks but also encompass measures of fairness, transparency, and ethical considerations. By clearly defining these metrics, stakeholders can better understand the system&rsquo;s capabilities and limitations, facilitating a more informed decision-making process. Additionally, clear metrics support the establishment of benchmarks for future improvements and comparisons, enhancing the overall trustworthiness of AI technologies.</p>
+<p>Defining both quantitative and qualitative metrics plays a pivotal role in assessing the effectiveness of testing activities, as well as in evaluating the AI system&rsquo;s performance and trustworthiness. It&rsquo;s essential to choose metrics that are not only relevant and measurable but also closely aligned with the identified AI risks, trustworthiness characteristics, and the overarching goals of the organization. Furthermore, thorough documentation of the reasons behind the selection of specific metrics is crucial, ensuring that they adequately represent the intended facets of the AI system&rsquo;s evaluation, thereby facilitating a comprehensive understanding of the system&rsquo;s capabilities and areas for improvement.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>Define quantitative and qualitative metrics to assess the effectiveness of testing activities and evaluate the AI system&rsquo;s performance and trustworthiness.</p>
+</li>
+<li>
+<p>Select metrics that are relevant, measurable, and aligned with the identified AI risks, trustworthiness characteristics, and organizational objectives.</p>
+</li>
+<li>
+<p>Document the rationale behind the selection of metrics, ensuring they adequately capture the intended aspects of AI system evaluation.</p>
+</li>
+</ol>
+<h3 id="measure-213-identify-and-document-testing-tools">
+  Measure 2.1.3. Identify and Document Testing Tools.
+  <a class="anchor" href="#measure-213-identify-and-document-testing-tools">#</a>
+</h3>
+<p>Recognizing and meticulously recording the tools employed in the testing process is a fundamental aspect of validating AI systems&rsquo; trustworthiness. This involves detailing the software, frameworks, and methodologies used during Test &amp; Evaluation, Validation &amp; Verification (TEVV) phases. Such comprehensive documentation not only ensures transparency and reproducibility but also aids in understanding the system&rsquo;s evaluation under various conditions. Moreover, it allows for the scrutiny and verification of the tools&rsquo; suitability and effectiveness in assessing the AI system&rsquo;s performance, thereby contributing to the overall reliability of the evaluation process.</p>
+<p>This practice involves evaluating tool capabilities, ensuring compatibility with the AI system&rsquo;s architecture and testing needs. Documenting the selection criteria, focusing on tool features and alignment with organizational standards, is essential for a transparent and effective testing process.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Identify and select appropriate testing tools that can effectively automate test execution, analyze test results, and provide insights into the AI system&rsquo;s behavior and performance.</p>
+</li>
+<li>
+<p>Evaluate the capabilities and limitations of testing tools, considering factors such as compatibility with the AI system&rsquo;s architecture, data format, and testing needs.</p>
+</li>
+<li>
+<p>Document the selection criteria for testing tools, including their features, performance, and alignment with organizational standards.</p>
+</li>
+</ol>
+<h3 id="measure-214-establish-test-execution-procedures">
+  Measure 2.1.4. Establish Test Execution Procedures.
+  <a class="anchor" href="#measure-214-establish-test-execution-procedures">#</a>
+</h3>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Define detailed procedures for executing test sets, including data preparation, test case execution, and reporting of results.</p>
+</li>
+<li>
+<p>Establish clear roles and responsibilities for test execution, ensuring that qualified individuals are responsible for conducting and documenting test results.</p>
+</li>
+<li>
+<p>Document the test execution procedures, including the testing environment, configuration settings, and error handling mechanisms.</p>
+</li>
+</ol>
+<h3 id="measure-215-integrate-testing-into-development-lifecycle">
+  Measure 2.1.5. Integrate Testing into Development Lifecycle.
+  <a class="anchor" href="#measure-215-integrate-testing-into-development-lifecycle">#</a>
+</h3>
+<p>Formulating detailed procedures for test execution is fundamental to ensuring the thorough and consistent evaluation of AI systems. This involves specifying the steps to be followed, the conditions under which tests are to be conducted, and the criteria for passing or failing the tests. Such well-defined procedures not only facilitate the systematic assessment of the system&rsquo;s functionality and performance but also enhance the reproducibility and reliability of the testing process. Moreover, clear guidelines help in identifying and addressing potential issues more efficiently, contributing to the overall trustworthiness of the AI system.</p>
+<p>Incorporating testing activities from the onset of the AI system&rsquo;s development lifecycle is essential, positioning testing as a core component rather than a subsequent consideration. By scheduling regular testing cycles throughout the development stages, potential issues can be detected and rectified promptly, minimizing the likelihood of defects emerging later. Furthermore, integrating testing tools and procedures within the development environment supports automated testing and the adoption of continuous integration/continuous delivery (CI/CD) practices, streamlining the development and ensuring the AI system&rsquo;s robustness and reliability.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Incorporate testing activities into the AI system&rsquo;s development lifecycle, ensuring that testing is not an afterthought but an integral part of the development process.</p>
+</li>
+<li>
+<p>Schedule regular testing cycles throughout the development process to identify and address potential issues early on, reducing the risk of introducing defects later in the lifecycle.</p>
+</li>
+<li>
+<p>Integrate testing tools and procedures into the development environment, facilitating automated testing and continuous integration/continuous delivery (CI/CD) practices.</p>
+</li>
+</ol>
+<h3 id="measure-216-document-testing-results-and-insights">
+  Measure 2.1.6. Document Testing Results and Insights.
+  <a class="anchor" href="#measure-216-document-testing-results-and-insights">#</a>
+</h3>
+<p>Thoroughly recording the outcomes and insights gained from testing is critical for the continuous improvement and accountability of AI systems. This documentation should include not only the raw results but also an in-depth analysis that provides context and understanding of the system&rsquo;s performance under various conditions. Such comprehensive records support the identification of trends, strengths, weaknesses, and areas for enhancement. Moreover, this practice facilitates transparent communication with stakeholders, contributing to the trust and credibility of the AI system&rsquo;s evaluation process.</p>
+<p>Maintaining a detailed log of all testing activities, from executed test cases to identified issues, is essential for a holistic understanding of the AI system&rsquo;s behavior. Analyzing these results to discern patterns and trends enables the identification of improvement opportunities. Documenting insights, including recommendations for boosting the system&rsquo;s performance, trustworthiness, and ethical compliance, is crucial for informed decision-making and continuous enhancement of the AI system.</p>
+<h4 id="sub-practices-5">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-5">#</a>
+</h4>
+<ol>
+<li>
+<p>Maintain a comprehensive record of all testing activities, including test cases executed, test results obtained, and any identified defects or issues.</p>
+</li>
+<li>
+<p>Analyze testing results to identify patterns, trends, and potential areas for improvement.</p>
+</li>
+<li>
+<p>Document the insights gained from testing, including recommendations for enhancing the AI system&rsquo;s performance, trustworthiness, and ethical compliance.</p>
+</li>
+</ol>
+<h3 id="measure-217-continuously-evaluate-and-adapt-testing-approach">
+  Measure 2.1.7. Continuously Evaluate and Adapt Testing Approach.
+  <a class="anchor" href="#measure-217-continuously-evaluate-and-adapt-testing-approach">#</a>
+</h3>
+<p>Adapting and continuously evaluating the testing approach is crucial to keep pace with the evolving nature of AI systems and their operational environments. This dynamic process involves regularly reviewing and updating test sets, metrics, and methodologies to ensure they remain relevant and effective. Such agility allows for the identification of new vulnerabilities, the incorporation of emerging best practices, and the adjustment to changes in system functionality or deployment contexts. This proactive stance not only enhances the robustness of the AI system but also ensures its ongoing alignment with trustworthiness and performance standards.</p>
+<p>Regularly assessing the testing strategy, test sets, and metrics ensures they stay pertinent and aligned with the AI system&rsquo;s changing needs and risk landscape. Gathering insights from developers, testers, and stakeholders is key to pinpointing areas for enhancement and refining the testing approach. Additionally, keeping testing tools current and integrating novel methodologies and technologies are crucial steps in preserving the efficacy of testing endeavors, thereby supporting the continuous advancement and reliability of AI systems.</p>
+<h4 id="sub-practices-6">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-6">#</a>
+</h4>
+<ol>
+<li>
+<p>Regularly evaluate the effectiveness of the testing approach, test sets, and testing metrics to ensure they remain relevant and aligned with the evolving AI system&rsquo;s requirements and risk profile.</p>
+</li>
+<li>
+<p>Gather feedback from AI developers, testers, and other stakeholders to identify areas for improvement and adapt the testing approach accordingly.</p>
+</li>
+<li>
+<p>Keep testing tools up-to-date and incorporate new testing methodologies and technologies to maintain the effectiveness of testing activities.</p>
+</li>
+</ol>
+<h3 id="measure-21-suggested-work-products">
+  Measure 2.1 Suggested Work Products
+  <a class="anchor" href="#measure-21-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>Test Dataset Documentation - Detailed records of test datasets used, including data sources, preprocessing steps, annotations, and metadata to ensure transparency and reproducibility in AI system evaluations.</li>
+<li>Test Coverage Report - A comprehensive report outlining the scenarios, inputs, and errors covered in test sets, along with justifications for the inclusion and exclusion of specific test cases, ensuring a thorough evaluation of the AI system&rsquo;s functionality and trustworthiness.</li>
+<li>Test Metrics Definition Document - A document defining the quantitative and qualitative metrics used to assess the AI system&rsquo;s performance, including measures of fairness, transparency, and ethical considerations, with clear rationales for each selected metric.</li>
+<li>Test Execution Procedure Manual - A detailed manual outlining the procedures for executing test sets, including data preparation, test case execution, reporting of results, roles, and responsibilities, ensuring consistency and reliability in testing processes.</li>
+<li>Development Lifecycle Integration Plan - A plan detailing how testing activities are integrated into the AI system&rsquo;s development lifecycle, including schedules for regular testing cycles and strategies for incorporating testing tools and procedures in the development environment.</li>
+<li>Testing Results and Analysis Report - A comprehensive report documenting the outcomes of testing activities, analyses of results, identification of patterns and trends, and recommendations for system enhancements, facilitating informed decision-making and continuous improvement.</li>
+<li>Testing Strategy Evaluation Report - A periodic report evaluating the effectiveness of the testing approach, methodologies, and tools, including feedback from stakeholders and recommendations for adjustments to adapt to evolving AI system needs and risk landscapes.</li>
+<li>Ethical Compliance and Impact Assessment - An assessment report evaluating the ethical implications, potential biases, and impacts on affected communities based on the test sets and metrics used, ensuring that the AI system aligns with ethical standards and societal values.</li>
+<li>Continuous Improvement Log - A log documenting ongoing evaluations, updates to test sets and metrics, and the incorporation of new testing methodologies and technologies, reflecting a commitment to continuous advancement in the trustworthiness and reliability of the AI system.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/measure/measure-2.1.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#measure-2">Measure 2</a>
+      <ul>
+        <li><a href="#measure-21">Measure 2.1</a>
+          <ul>
+            <li><a href="#measure-211-develop-and-document-test-sets">Measure 2.1.1. Develop and Document Test Sets.</a></li>
+            <li><a href="#measure-212-establish-clear-test-metrics">Measure 2.1.2. Establish Clear Test Metrics.</a></li>
+            <li><a href="#measure-213-identify-and-document-testing-tools">Measure 2.1.3. Identify and Document Testing Tools.</a></li>
+            <li><a href="#measure-214-establish-test-execution-procedures">Measure 2.1.4. Establish Test Execution Procedures.</a></li>
+            <li><a href="#measure-215-integrate-testing-into-development-lifecycle">Measure 2.1.5. Integrate Testing into Development Lifecycle.</a></li>
+            <li><a href="#measure-216-document-testing-results-and-insights">Measure 2.1.6. Document Testing Results and Insights.</a></li>
+            <li><a href="#measure-217-continuously-evaluate-and-adapt-testing-approach">Measure 2.1.7. Continuously Evaluate and Adapt Testing Approach.</a></li>
+            <li><a href="#measure-21-suggested-work-products">Measure 2.1 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 1 # Appropriate methods and metrics are identified and applied. [@airmf]
+Measure 1.1 # Approaches and metrics for measurement of AI risks enumerated during the map function are selected for implementation starting with the most significant AI risks.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 1 # Appropriate methods and metrics are identified and applied. [@airmf]
+Measure 1.1 # Approaches and metrics for measurement of AI risks enumerated during the map function are selected for implementation starting with the most significant AI risks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/measure/measure-1.1/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Measure 1.1 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/measure/measure-1.1/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle"  />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle"  />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle" checked />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="active">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Measure 1.1</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#measure-1">Measure 1</a>
+      <ul>
+        <li><a href="#measure-11">Measure 1.1</a>
+          <ul>
+            <li><a href="#measure-111-select-appropriate-measurement-approaches">Measure 1.1.1. Select Appropriate Measurement Approaches.</a></li>
+            <li><a href="#measure-112-develop-and-implement-measurement-metrics">Measure 1.1.2. Develop and Implement Measurement Metrics.</a></li>
+            <li><a href="#measure-113-establish-measurement-procedures-and-tools">Measure 1.1.3. Establish Measurement Procedures and Tools.</a></li>
+            <li><a href="#measure-114-integrate-measurement-into-the-ai-development-lifecycle">Measure 1.1.4. Integrate Measurement into the AI Development Lifecycle.</a></li>
+            <li><a href="#measure-115-document-measurement-approaches-and-limitations">Measure 1.1.5. Document Measurement Approaches and Limitations.</a></li>
+            <li><a href="#measure-116-continuously-evaluate-and-improve-measurement-processes">Measure 1.1.6. Continuously Evaluate and Improve Measurement Processes.</a></li>
+            <li><a href="#measure-11-suggested-work-products">Measure 1.1 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h1 id="measure-1">
+  Measure 1
+  <a class="anchor" href="#measure-1">#</a>
+</h1>
+<blockquote>
+<p>Appropriate methods and metrics are identified and applied. [@airmf]</p>
+</blockquote>
+<h2 id="measure-11">
+  Measure 1.1
+  <a class="anchor" href="#measure-11">#</a>
+</h2>
+<blockquote>
+<p>Approaches and metrics for measurement of AI risks enumerated during the map function are selected for implementation starting with the most significant AI risks. The risks or trustworthiness characteristics that will not – or cannot – be measured are properly documented. [@playbook]</p>
+</blockquote>
+<h3 id="measure-111-select-appropriate-measurement-approaches">
+  Measure 1.1.1. Select Appropriate Measurement Approaches.
+  <a class="anchor" href="#measure-111-select-appropriate-measurement-approaches">#</a>
+</h3>
+<p>In the measurement phase, selecting appropriate measurement approaches involves carefully evaluating the identified AI risks and trustworthiness characteristics to determine the most suitable methods for evaluation. This process entails considering factors such as the nature of the risks, errors within the AI system, and incidents or negative impacts. By aligning measurement approaches with the specific characteristics of each risk, organizations can effectively quantify and monitor the impact of AI on various dimensions of trustworthiness, enabling informed decision-making and robust risk management strategies.</p>
+<p>Identifying the most significant measurement approaches involves considering factors such as errors within the AI system and incidents or negative impacts, assessing the feasibility of measurement using appropriate approaches like quantitative metrics or qualitative assessments, and prioritizing risks based on their significance, measurability, and potential impact on the AI system&rsquo;s trustworthiness.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Identify the most significant AI risks identified during the Map function, considering factors such as errors within the AI system, and incidents or negative impacts.</p>
+</li>
+<li>
+<p>Assess the feasibility of measuring each identified risk using appropriate measurement approaches, such as quantitative metrics, qualitative assessments, or expert judgment.</p>
+</li>
+<li>
+<p>Prioritize risks for measurement based on their significance, feasibility of measurement, and potential impact on the AI system&rsquo;s trustworthiness.</p>
+</li>
+</ol>
+<h3 id="measure-112-develop-and-implement-measurement-metrics">
+  Measure 1.1.2. Develop and Implement Measurement Metrics.
+  <a class="anchor" href="#measure-112-develop-and-implement-measurement-metrics">#</a>
+</h3>
+<p>Developing and implementing measurement metrics involves translating the identified AI risks into quantifiable indicators that can be systematically measured and monitored over time. This process requires defining specific metrics and measurement methods tailored to each risk or trustworthiness characteristic, ensuring alignment with the objectives of the AI-RMM framework. By establishing clear measurement criteria and protocols, organizations can effectively track the performance and impact of AI systems, enabling proactive risk management and continuous improvement efforts.</p>
+<p>Crafting and implementing measurement metrics involves developing clear, quantifiable indicators for selected risks, ensuring relevance, reliability, and sensitivity to system changes, and validating them through pilot testing to ensure accuracy.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>For each selected risk, develop clear and quantifiable metrics that effectively capture its essence and allow for ongoing measurement.</p>
+</li>
+<li>
+<p>Ensure that the selected metrics are relevant, reliable, and sensitive to changes in the AI system&rsquo;s behavior or context.</p>
+</li>
+<li>
+<p>Validate the measurement metrics through pilot testing and refinement to ensure they accurately reflect the intended risk construct.</p>
+</li>
+</ol>
+<h3 id="measure-113-establish-measurement-procedures-and-tools">
+  Measure 1.1.3. Establish Measurement Procedures and Tools.
+  <a class="anchor" href="#measure-113-establish-measurement-procedures-and-tools">#</a>
+</h3>
+<p>This practice entails defining clear protocols for data collection, analysis, and interpretation in alignment with selected measurement metrics. It involves identifying suitable tools and technologies for data gathering and processing to ensure accuracy, reliability, and consistency. Additionally, establishing standardized procedures for conducting measurements and documenting results enhances repeatability and comparability across assessments.</p>
+<p>Establishing detailed procedures for data collection, aggregation, and analysis ensures systematic handling of information pertinent to the identified AI risks. Simultaneously, integrating suitable tools and technologies supports efficient execution of these procedures, streamlining data processing and reporting tasks. Moreover, compatibility checks with the AI system&rsquo;s data infrastructure and performance monitoring capabilities guarantee seamless integration and effectiveness of the measurement framework.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Define detailed procedures for collecting, aggregating, and analyzing data related to the selected AI risks.</p>
+</li>
+<li>
+<p>Develop or select appropriate tools and technologies to facilitate data collection, analysis, and reporting.</p>
+</li>
+<li>
+<p>Ensure that the measurement procedures and tools are compatible with the AI system&rsquo;s data infrastructure and performance monitoring capabilities.</p>
+</li>
+</ol>
+<h3 id="measure-114-integrate-measurement-into-the-ai-development-lifecycle">
+  Measure 1.1.4. Integrate Measurement into the AI Development Lifecycle.
+  <a class="anchor" href="#measure-114-integrate-measurement-into-the-ai-development-lifecycle">#</a>
+</h3>
+<p>Integrating measurement into the AI development lifecycle involves embedding measurement processes and metrics seamlessly into various stages of AI system development, from design and testing to deployment and monitoring. This practice ensures that measurement activities are not treated as separate entities but are rather intrinsic components of the overall development workflow.</p>
+<p>Embedding measurement activities throughout the AI system&rsquo;s development lifecycle ensures comprehensive coverage from inception to deployment and beyond. This involves integrating measurement cycles into each phase, enabling ongoing risk assessment and strategy refinement. Additionally, implementing streamlined data processes tailored to the operational context facilitates efficient data collection, analysis, and reporting, enhancing the effectiveness of risk management efforts.</p>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Incorporate measurement activities into the AI system&rsquo;s development lifecycle, from requirements gathering to deployment and ongoing operations.</p>
+</li>
+<li>
+<p>Schedule regular measurement cycles to track the evolution of AI risks and assess the effectiveness of mitigation strategies.</p>
+</li>
+<li>
+<p>Implement mechanisms for data collection, analysis, and reporting that align with the AI system&rsquo;s operational environment.</p>
+</li>
+</ol>
+<h3 id="measure-115-document-measurement-approaches-and-limitations">
+  Measure 1.1.5. Document Measurement Approaches and Limitations.
+  <a class="anchor" href="#measure-115-document-measurement-approaches-and-limitations">#</a>
+</h3>
+<p>This practice entails systematically recording the strategies employed to assess AI risks and trustworthiness characteristics, along with any constraints or challenges encountered during the measurement process. This documentation provides transparency regarding the methodologies used, enabling stakeholders to understand the basis of risk assessments and the reliability of measurement outcomes. Additionally, documenting limitations helps to acknowledge the boundaries of measurement accuracy and highlight areas where further refinement or alternative approaches may be necessary to enhance the robustness of risk assessment practices.</p>
+<p>Documenting measurement approaches and limitations involves compiling detailed records of the chosen strategies, outlining the reasons for excluding certain AI risks, errors, incidents, or similar from measurement, and providing justification for the selected methodologies while addressing any associated limitations or constraints. This comprehensive documentation ensures transparency and accountability in the measurement process, facilitating informed decision-making and continuous improvement in AI risk management practices.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Create comprehensive documentation outlining the selected measurement approaches, metrics, procedures, and tools.</p>
+</li>
+<li>
+<p>Clearly identify the AI risks that will not be measured and the reasons for not measuring them.</p>
+</li>
+<li>
+<p>Justify the selection of measurement approaches and address any limitations or limitations of the chosen methodologies.</p>
+</li>
+</ol>
+<h3 id="measure-116-continuously-evaluate-and-improve-measurement-processes">
+  Measure 1.1.6. Continuously Evaluate and Improve Measurement Processes.
+  <a class="anchor" href="#measure-116-continuously-evaluate-and-improve-measurement-processes">#</a>
+</h3>
+<p>To enhance the effectiveness of measurement processes, continuous evaluation and improvement are essential. This involves regularly assessing the performance and outcomes of the implemented measurement approaches and metrics. By collecting feedback from stakeholders and analyzing data on measurement activities, organizations can identify areas for refinement and optimization. This iterative approach allows for adjustments to be made to measurement processes, ensuring they remain aligned with the evolving needs and objectives of AI risk management.</p>
+<p>Continuously assessing the effectiveness of measurement processes involves regularly evaluating their functionality and identifying areas for improvement. Additionally, gathering feedback from stakeholders, experts, and data analysts helps to assess the quality and relevance of measurement data, ensuring that the insights generated are accurate and meaningful for informed decision-making in AI risk management.</p>
+<h4 id="sub-practices-5">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-5">#</a>
+</h4>
+<ol>
+<li>
+<p>Regularly evaluate the effectiveness of measurement processes and identify areas for improvement.</p>
+</li>
+<li>
+<p>Gather feedback from stakeholders, experts, and data analysts to assess the quality and relevance of measurement data.</p>
+</li>
+</ol>
+<h3 id="measure-11-suggested-work-products">
+  Measure 1.1 Suggested Work Products
+  <a class="anchor" href="#measure-11-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>AI Risk Assessment Report - A comprehensive document outlining the most significant AI risks, their potential impacts, and the chosen measurement approaches for each risk.</li>
+<li>Risk Prioritization Matrix - A structured framework or tool that ranks AI risks based on their significance, measurability, and potential impact, guiding the focus of measurement efforts.</li>
+<li>Metric Development and Implementation Plan - A detailed plan for developing and implementing quantifiable metrics for selected AI risks, including criteria for effectiveness and pilot testing results.</li>
+<li>Measurement Procedure Manual - A manual or set of guidelines defining the procedures for collecting, aggregating, and analyzing data related to AI risks, ensuring consistency and reliability in measurements.</li>
+<li>Technology and Tools Compatibility Report - A report evaluating the compatibility of selected measurement tools and technologies with the AI system&rsquo;s data infrastructure, ensuring seamless integration.</li>
+<li>AI Development Lifecycle Integration Plan - A document outlining how measurement activities will be integrated into each phase of the AI development lifecycle, ensuring continuous risk assessment and mitigation.</li>
+<li>Measurement Documentation and Limitations Report - A comprehensive report documenting the measurement approaches, metrics, and procedures employed, along with a detailed analysis of any limitations or constraints encountered.</li>
+<li>Continuous Improvement Feedback Form - A structured form or feedback mechanism for collecting insights from stakeholders, experts, and data analysts on the effectiveness and relevance of the measurement processes.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/measure/measure-1.1.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#measure-1">Measure 1</a>
+      <ul>
+        <li><a href="#measure-11">Measure 1.1</a>
+          <ul>
+            <li><a href="#measure-111-select-appropriate-measurement-approaches">Measure 1.1.1. Select Appropriate Measurement Approaches.</a></li>
+            <li><a href="#measure-112-develop-and-implement-measurement-metrics">Measure 1.1.2. Develop and Implement Measurement Metrics.</a></li>
+            <li><a href="#measure-113-establish-measurement-procedures-and-tools">Measure 1.1.3. Establish Measurement Procedures and Tools.</a></li>
+            <li><a href="#measure-114-integrate-measurement-into-the-ai-development-lifecycle">Measure 1.1.4. Integrate Measurement into the AI Development Lifecycle.</a></li>
+            <li><a href="#measure-115-document-measurement-approaches-and-limitations">Measure 1.1.5. Document Measurement Approaches and Limitations.</a></li>
+            <li><a href="#measure-116-continuously-evaluate-and-improve-measurement-processes">Measure 1.1.6. Continuously Evaluate and Improve Measurement Processes.</a></li>
+            <li><a href="#measure-11-suggested-work-products">Measure 1.1 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

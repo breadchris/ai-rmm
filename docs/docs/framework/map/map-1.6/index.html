@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.6 # System requirements (e.g., “the system shall respect the privacy of its users”) are elicited from and understood by relevant AI actors. Design decisions take socio-technical implications into account to address AI risks.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="" />
+<meta property="og:description" content="//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Map 1.6 # System requirements (e.g., “the system shall respect the privacy of its users”) are elicited from and understood by relevant AI actors. Design decisions take socio-technical implications into account to address AI risks." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://airmm.github.io/docs/framework/map/map-1.6/" /><meta property="article:section" content="docs" />
+
+<meta property="article:modified_time" content="2024-03-01T06:08:58-08:00" />
+<title>Map 1.6 | AI RMM</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" >
+<link rel="canonical" href="https://airmm.github.io/docs/framework/map/map-1.6/">
+<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.6b32c2efb8ac0fd7461503d7a0fa2d243cd0bdbdc395a764d19dabbfde3115b7.js" integrity="sha256-azLC77isD9dGFQPXoPotJDzQvb3Dladk0Z2rv94xFbc=" crossorigin="anonymous"></script>
+
+  <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>AI RMM</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="/docs/framework/" class="">Framework</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-774403b5022d2a3e75a4426236c0f474" class="toggle"  />
+    <label for="section-774403b5022d2a3e75a4426236c0f474" class="flex justify-between">
+      <a href="/docs/framework/govern/" class="">Govern</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.1/" class="">Govern 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.2/" class="">Govern 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.3/" class="">Govern 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.4/" class="">Govern 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.5/" class="">Govern 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.6/" class="">Govern 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-1.7/" class="">Govern 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.1/" class="">Govern 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.2/" class="">Govern 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-2.3/" class="">Govern 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.1/" class="">Govern 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-3.2/" class="">Govern 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.1/" class="">Govern 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.2/" class="">Govern 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-4.3/" class="">Govern 4.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.1/" class="">Govern 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-5.2/" class="">Govern 5.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.1/" class="">Govern 6.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/govern/govern-6.2/" class="">Govern 6.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c2399cd777210430c774509d8f90d645" class="toggle"  />
+    <label for="section-c2399cd777210430c774509d8f90d645" class="flex justify-between">
+      <a href="/docs/framework/manage/" class="">Manage</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.1/" class="">Manage 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.2/" class="">Manage 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.3/" class="">Manage 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-1.4/" class="">Manage 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.1/" class="">Manage 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.2/" class="">Manage 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.3/" class="">Manage 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-2.4/" class="">Manage 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.1/" class="">Manage 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-3.2/" class="">Manage 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.1/" class="">Manage 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.2/" class="">Manage 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/manage/manage-4.3/" class="">Manage 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db67663ebe2043955437c26294d958db" class="toggle" checked />
+    <label for="section-db67663ebe2043955437c26294d958db" class="flex justify-between">
+      <a href="/docs/framework/map/" class="">Map</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.1/" class="">Map 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.2/" class="">Map 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.3/" class="">Map 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.4/" class="">Map 1.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.5/" class="">Map 1.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-1.6/" class="active">Map 1.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.1/" class="">Map 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.2/" class="">Map 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-2.3/" class="">Map 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.1/" class="">Map 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.2/" class="">Map 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.3/" class="">Map 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.4/" class="">Map 3.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-3.5/" class="">Map 3.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.1/" class="">Map 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-4.2/" class="">Map 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.1/" class="">Map 5.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/map/map-5.2/" class="">Map 5.2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-476989274a408d6c3f2159dceb9ffaeb" class="toggle"  />
+    <label for="section-476989274a408d6c3f2159dceb9ffaeb" class="flex justify-between">
+      <a href="/docs/framework/measure/" class="">Measure</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.1/" class="">Measure 1.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.2/" class="">Measure 1.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-1.3/" class="">Measure 1.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.1/" class="">Measure 2.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.10/" class="">Measure 2.10</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.11/" class="">Measure 2.11</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.12/" class="">Measure 2.12</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.13/" class="">Measure 2.13</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.2/" class="">Measure 2.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.3/" class="">Measure 2.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.4/" class="">Measure 2.4</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.5/" class="">Measure 2.5</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.6/" class="">Measure 2.6</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.7/" class="">Measure 2.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.8/" class="">Measure 2.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-2.9/" class="">Measure 2.9</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.1/" class="">Measure 3.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.2/" class="">Measure 3.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-3.3/" class="">Measure 3.3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.1/" class="">Measure 4.1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.2/" class="">Measure 4.2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/docs/framework/measure/measure-4.3/" class="">Measure 4.3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Map 1.6</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#map-16">Map 1.6</a>
+          <ul>
+            <li><a href="#map-161-elicit-system-requirements-from-relevant-ai-actors">Map 1.6.1. Elicit System Requirements from Relevant AI Actors.</a></li>
+            <li><a href="#map-162-prioritize-socio-technical-implications-in-design-decisions">Map 1.6.2. Prioritize Socio-Technical Implications in Design Decisions.</a></li>
+            <li><a href="#map-163-address-ai-risks-through-design-decisions">Map 1.6.3. Address AI Risks through Design Decisions.</a></li>
+            <li><a href="#map-164-document-socio-technical-considerations-and-design-trade-offs">Map 1.6.4. Document Socio-Technical Considerations and Design Trade-offs.</a></li>
+            <li><a href="#map-165-continuously-evaluate-and-refine-system-requirements">Map 1.6.5. Continuously Evaluate and Refine System Requirements.</a></li>
+            <li><a href="#map-16-suggested-work-products">Map 1.6 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><p>
+  <a href="/" title="COPYRIGHT">//</a>: # (Copyright (C) 2024 RiskFrame.ai 
+  <a href="https://www.riskframe.ai">https://www.riskframe.ai</a> 
+  <a href="https://github.com/riskframe/ai-rmm">https://github.com/riskframe/ai-rmm</a>)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (SOFTWARE LICENSE)
+
+  <a href="/" title="COPYRIGHT">//</a>: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)</p>
+<h2 id="map-16">
+  Map 1.6
+  <a class="anchor" href="#map-16">#</a>
+</h2>
+<blockquote>
+<p>System requirements (e.g., “the system shall respect the privacy of its users”) are elicited from and understood by relevant AI actors. Design decisions take socio-technical implications into account to address AI risks. [@playbook]</p>
+</blockquote>
+<h3 id="map-161-elicit-system-requirements-from-relevant-ai-actors">
+  Map 1.6.1. Elicit System Requirements from Relevant AI Actors.
+  <a class="anchor" href="#map-161-elicit-system-requirements-from-relevant-ai-actors">#</a>
+</h3>
+<p>To effectively elicit system requirements from relevant AI actors, organizations should engage in comprehensive communication and collaboration processes. This involves soliciting input from various stakeholders, including AI developers, end-users, domain experts, and regulatory authorities. By fostering open dialogue and incorporating diverse perspectives, organizations can gain a holistic understanding of system requirements, including functional needs, ethical considerations, privacy concerns, and regulatory requirements. This collaborative approach ensures that AI systems are designed to meet the needs and expectations of all stakeholders while addressing socio-technical implications and mitigating AI risks effectively.</p>
+<p>Involving a diverse team of AI actors, including developers, domain experts, users, and stakeholders, is essential in eliciting system requirements effectively. Encouraging open communication and collaboration ensures that a wide range of perspectives is captured, facilitating the creation of comprehensive requirements. Clear and concise documentation of requirements, using a structured format, further enhances understanding and traceability throughout the development process.</p>
+<h4 id="sub-practices">
+  Sub Practices
+  <a class="anchor" href="#sub-practices">#</a>
+</h4>
+<ol>
+<li>
+<p>Engage a diverse team of AI actors, including developers, domain experts, users, and stakeholders, in the process of eliciting system requirements.</p>
+</li>
+<li>
+<p>Encourage open communication and collaboration to capture a wide range of perspectives and ensure that requirements are comprehensive.</p>
+</li>
+<li>
+<p>Document requirements clearly and concisely, using a structured format that facilitates understanding and traceability.</p>
+</li>
+</ol>
+<h3 id="map-162-prioritize-socio-technical-implications-in-design-decisions">
+  Map 1.6.2. Prioritize Socio-Technical Implications in Design Decisions.
+  <a class="anchor" href="#map-162-prioritize-socio-technical-implications-in-design-decisions">#</a>
+</h3>
+<p>To effectively address AI risks, prioritize socio-technical implications in design decisions, ensuring that both technical and social aspects are considered throughout the development process. This involves evaluating how design choices impact not only the system&rsquo;s functionality and performance but also its ethical, legal, and societal implications. By placing importance on socio-technical considerations, developers can mitigate potential risks related to bias, fairness, transparency, privacy, and accountability, ultimately fostering trust and acceptance of AI systems among users and stakeholders.</p>
+<p>By integrating a socio-technical perspective into AI design, practitioners ensure that social, cultural, and ethical implications are thoroughly considered throughout the process. This involves conducting user research and engaging stakeholders to grasp potential impacts on individuals and society while identifying and addressing biases, fairness issues, and ethical concerns early on in the design phase.</p>
+<h4 id="sub-practices-1">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-1">#</a>
+</h4>
+<ol>
+<li>
+<p>Integrate a socio-technical lens into the AI design process, considering the social, cultural, and ethical implications of AI systems.</p>
+</li>
+<li>
+<p>Conduct user research and stakeholder engagement to understand potential impacts on individuals, communities, and society.</p>
+</li>
+<li>
+<p>Identify and address potential biases, fairness issues, and ethical concerns early in the design phase.</p>
+</li>
+</ol>
+<h3 id="map-163-address-ai-risks-through-design-decisions">
+  Map 1.6.3. Address AI Risks through Design Decisions.
+  <a class="anchor" href="#map-163-address-ai-risks-through-design-decisions">#</a>
+</h3>
+<p>To address AI risks through design decisions, it&rsquo;s crucial to incorporate risk mitigation strategies directly into the design process. This involves proactively identifying potential risks associated with the AI system&rsquo;s functionality, data handling, and interaction with users and stakeholders. By integrating risk assessment into design decisions, such as algorithm selection, model training methodologies, and user interface design, practitioners can mitigate risks related to bias, privacy violations, security vulnerabilities, and ethical considerations from the outset, thereby enhancing the trustworthiness and reliability of the AI system.</p>
+<p>Incorporating risk mitigation strategies directly into the design process is essential for addressing AI risks. This involves developing design solutions that proactively mitigate potential issues such as data privacy breaches, algorithmic bias, and unintended consequences. Implementing safeguards to protect user privacy, ensure transparency and explainability of AI models, and promote responsible AI practices is also crucial. Moreover, evaluating design decisions against the organization&rsquo;s risk tolerances and ethical framework helps ensure alignment with overarching goals and values.</p>
+<h4 id="sub-practices-2">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-2">#</a>
+</h4>
+<ol>
+<li>
+<p>Develop design solutions that proactively mitigate AI risks, such as data privacy breaches, algorithmic bias, and unintended consequences.</p>
+</li>
+<li>
+<p>Implement safeguards to protect user privacy, ensure transparency and explainability of AI models, and promote responsible AI practices.</p>
+</li>
+<li>
+<p>Evaluate design decisions against the organization&rsquo;s risk tolerances and ethical framework.</p>
+</li>
+</ol>
+<h3 id="map-164-document-socio-technical-considerations-and-design-trade-offs">
+  Map 1.6.4. Document Socio-Technical Considerations and Design Trade-offs.
+  <a class="anchor" href="#map-164-document-socio-technical-considerations-and-design-trade-offs">#</a>
+</h3>
+<p>Documenting socio-technical considerations and design trade-offs is crucial for maintaining transparency and accountability throughout the AI development process. It involves recording the various factors influencing design decisions, including social, cultural, ethical, and technical aspects, as well as the compromises made to address competing priorities or constraints. By documenting these considerations and trade-offs, stakeholders can better understand the rationale behind design choices and evaluate their implications on AI system behavior and societal impact.</p>
+<p>Creating comprehensive documentation that clearly outlines the socio-technical considerations informing design decisions is crucial. This includes explaining the reasoning behind design trade-offs, balancing the need for functionality with ethical considerations and the mitigation of AI risks. Sharing this documentation with relevant stakeholders promotes transparency and accountability in the AI development process, fostering understanding and trust among all involved parties.</p>
+<h4 id="sub-practices-3">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-3">#</a>
+</h4>
+<ol>
+<li>
+<p>Create comprehensive documentation that clearly outlines the socio-technical considerations that informed design decisions.</p>
+</li>
+<li>
+<p>Explain the reasoning behind design trade-offs, balancing the need for functionality with ethical considerations and the mitigation of AI risks.</p>
+</li>
+<li>
+<p>Share documentation with relevant stakeholders to promote transparency and accountability in the AI development process.</p>
+</li>
+</ol>
+<h3 id="map-165-continuously-evaluate-and-refine-system-requirements">
+  Map 1.6.5. Continuously Evaluate and Refine System Requirements.
+  <a class="anchor" href="#map-165-continuously-evaluate-and-refine-system-requirements">#</a>
+</h3>
+<p>Continuously evaluate and refine system requirements to ensure they remain aligned with evolving business needs, technological advancements, and societal expectations. This involves actively soliciting feedback from relevant AI actors and stakeholders, such as users, developers, and domain experts, to identify areas for improvement and address emerging risks. By regularly reassessing system requirements, organizations can adapt to changing contexts and better mitigate potential AI-related challenges.</p>
+<p>Regularly reviewing and updating system requirements ensures that they remain relevant and responsive to changing project dynamics and stakeholder needs. Incorporating feedback from stakeholders and lessons learned from prototype testing or pilot deployments enables continuous improvement and refinement of requirements. By maintaining a living document that reflects evolving requirements and design decisions, organizations can enhance the agility and adaptability of their AI projects, ultimately leading to more successful outcomes.</p>
+<h4 id="sub-practices-4">
+  Sub Practices
+  <a class="anchor" href="#sub-practices-4">#</a>
+</h4>
+<ol>
+<li>
+<p>Regularly review and update system requirements as the AI project progresses and new information becomes available.</p>
+</li>
+<li>
+<p>Incorporate feedback from stakeholders and lessons learned from prototype testing or pilot deployments.</p>
+</li>
+<li>
+<p>Maintain a living document that reflects the evolving requirements and design decisions throughout the AI lifecycle.</p>
+</li>
+</ol>
+<h3 id="map-16-suggested-work-products">
+  Map 1.6 Suggested Work Products
+  <a class="anchor" href="#map-16-suggested-work-products">#</a>
+</h3>
+<ul>
+<li>Stakeholder Engagement Report - Documenting the process and outcomes of engaging diverse AI actors, including their contributions and concerns related to system requirements.</li>
+<li>System Requirements Specification - A detailed document outlining all elicited system requirements, including functional, ethical, and regulatory considerations, structured for clarity and traceability.</li>
+<li>Design Decision Log - A record of key design decisions made, including the socio-technical considerations that influenced these decisions and the trade-offs considered.</li>
+<li>Risk Assessment Report - An analysis of potential AI risks identified during the design phase, along with the mitigation strategies integrated into the design decisions.</li>
+<li>Bias and Fairness Audit - Documentation of efforts to identify and address potential biases and fairness issues, including the methodologies used and the outcomes of these efforts.</li>
+<li>Privacy and Security Plan - A detailed strategy outlining the safeguards implemented to protect user data and ensure the privacy and security of the AI system.</li>
+<li>Continuous Improvement Plan - A dynamic document detailing the process for regularly reviewing and updating system requirements, incorporating stakeholder feedback, and adapting to changes.</li>
+<li>Design Trade-off Analysis - Documentation of the various design trade-offs made, explaining the rationale behind each decision and how it balances functionality, ethical considerations, and risk mitigation.</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/aace7545684d4a4e7d79a22a4b36d760ce5c11c9" title='Last modified by Chris | March 1, 2024' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>March 1, 2024</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/docs/framework/map/map-1.6.md" target="_blank" rel="noopener">
+      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#map-16">Map 1.6</a>
+          <ul>
+            <li><a href="#map-161-elicit-system-requirements-from-relevant-ai-actors">Map 1.6.1. Elicit System Requirements from Relevant AI Actors.</a></li>
+            <li><a href="#map-162-prioritize-socio-technical-implications-in-design-decisions">Map 1.6.2. Prioritize Socio-Technical Implications in Design Decisions.</a></li>
+            <li><a href="#map-163-address-ai-risks-through-design-decisions">Map 1.6.3. Address AI Risks through Design Decisions.</a></li>
+            <li><a href="#map-164-document-socio-technical-considerations-and-design-trade-offs">Map 1.6.4. Document Socio-Technical Considerations and Design Trade-offs.</a></li>
+            <li><a href="#map-165-continuously-evaluate-and-refine-system-requirements">Map 1.6.5. Continuously Evaluate and Refine System Requirements.</a></li>
+            <li><a href="#map-16-suggested-work-products">Map 1.6 Suggested Work Products</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

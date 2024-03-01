@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI RMM</title>
+    <link>https://airmm.github.io/docs/framework/measure/</link>
+    <description>Recent content on AI RMM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://airmm.github.io/docs/framework/measure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-1.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-1.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 1 # Appropriate methods and metrics are identified and applied. [@airmf]
+Measure 1.1 # Approaches and metrics for measurement of AI risks enumerated during the map function are selected for implementation starting with the most significant AI risks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-1.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 1.2 # Appropriateness of AI metrics and effectiveness of existing controls are regularly assessed and updated, including reports of errors and potential impacts on affected communities. [@playbook]
+Measure 1.2.1. Regularly Evaluate Measurement Approach Relevance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-1.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-1.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 1.3 # Internal experts who did not serve as front-line developers for the system and/or independent assessors are involved in regular assessments and updates. Domain experts, users, AI actors external to the team that developed or deployed the AI system, and affected communities are consulted in support of assessments as necessary per organizational risk tolerance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2 # AI systems are evaluated for trustworthy characteristics. [@airmf]
+Measure 2.1 # Test sets, metrics, and details about the tools used during Test &amp;amp; Evaluation, Validation &amp;amp; Verification (TEVV) are documented. [@playbook]</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.10/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.10 # Privacy risk of the AI system – as identified in the map function – is examined and documented. [@playbook]
+Measure 2.10.1. Identify and Assess Privacy Risks. # Identifying and assessing privacy risks in AI systems is a crucial step in safeguarding user data and maintaining trust in AI technologies.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.11/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.11 # Fairness and bias – as identified in the map function – are evaluated and results are documented. [@playbook]
+Measure 2.11.1. Identify and Assess Fairness and Bias Concerns. # Identifying and assessing fairness and bias concerns within AI systems are critical steps towards ensuring ethical and equitable AI practices.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.12/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.12 # Environmental impact and sustainability of AI model training and management activities – as identified in the map function – are assessed and documented. [@playbook]
+Measure 2.12.1. Identify and Assess Environmental Impact.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.13/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.13 # Effectiveness of the employed TEVV metrics and processes in the measure function are evaluated and documented. [@playbook]
+Measure 2.13.1. Evaluate TEVV Metric Effectiveness. # Evaluating the effectiveness of TEVV (Trustworthiness, Explainability, Validity, and Value) metrics is crucial for ensuring that the assessment processes in place accurately reflect the AI system&amp;rsquo;s performance and reliability.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.2 # Evaluations involving human subjects meet applicable requirements (including human subject protection) and are representative of the relevant population. [@playbook]
+Measure 2.2.1. Design and Plan Human-Subject Evaluations. # Evaluating AI systems with human subjects necessitates meticulous planning and design to ensure ethical standards and representativeness.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.3 # AI system performance or assurance criteria are measured qualitatively or quantitatively and demonstrated for conditions similar to deployment setting(s). Measures are documented. [@playbook]
+Measure 2.3.1. Establish Performance or Assurance Criteria. # To set the foundation for evaluating AI systems in environments akin to their intended use, it&amp;rsquo;s crucial to define clear and specific performance or assurance criteria.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.4/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.4 # The functionality and behavior of the AI system and its components – as identified in the map function – are monitored when in production. [@playbook]
+Measure 2.4.1. Establish Monitoring Requirements and Objectives.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.5/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.5 # The AI system to be deployed is demonstrated to be valid and reliable. Limitations of the generalizability beyond the conditions under which the technology was developed are documented. [@playbook]
+Measure 2.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.6/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.6 # The AI system is evaluated regularly for safety risks – as identified in the map function. The AI system to be deployed is demonstrated to be safe, its residual negative risk does not exceed the risk tolerance, and it can fail safely, particularly if made to operate beyond its knowledge limits.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.7/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.7 # AI system security and resilience – as identified in the map function – are evaluated and documented. [@playbook]
+Measure 2.7.1. Establish a Security and Resilience Evaluation Framework. # Establishing a comprehensive framework for evaluating the security and resilience of AI systems is essential in safeguarding against potential threats and vulnerabilities.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.8/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.8 # Risks associated with transparency and accountability – as identified in the map function – are examined and documented. [@playbook]
+Measure 2.8.1. Identify Transparency and Accountability Concerns. # Identifying and addressing concerns related to transparency and accountability is critical in the development and deployment of AI systems.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-2.9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-2.9/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 2.9 # The AI model is explained, validated, and documented, and AI system output is interpreted within its context – as identified in the map function – to inform responsible use and governance.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-3.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-3.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 3 # Mechanisms for tracking identified AI risks over time are in place. [@airmf]
+Measure 3.1 # Approaches, personnel, and documentation are in place to regularly identify and track existing, unanticipated, and emergent AI risks based on factors such as intended and actual performance in deployed contexts.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-3.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-3.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 3.2 # Risk tracking approaches are considered for settings where AI risks are difficult to assess using currently available measurement techniques or where metrics are not yet available. [@playbook]
+Measure 3.2.1. Recognize Risk Measurement Limitations.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-3.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-3.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 3.3 # Feedback processes for end users and impacted communities to report problems and appeal system outcomes are established and integrated into AI system evaluation metrics. [@playbook]
+Measure 3.3.1. Establish Feedback Mechanisms for End Users and Impacted Communities.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-4.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-4.1/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 4 # Feedback about efficacy of measurement is gathered and assessed. [@airmf]
+Measure 4.1 # Measurement approaches for identifying AI risks are connected to deployment context(s) and informed through consultation with domain experts and other end users.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-4.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-4.2/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 4.2 # Measurement results regarding AI system trustworthiness in deployment context(s) and across the AI lifecycle are informed by input from domain experts and relevant AI actors to validate whether the system is performing consistently as intended.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://airmm.github.io/docs/framework/measure/measure-4.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://airmm.github.io/docs/framework/measure/measure-4.3/</guid>
+      <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
+Measure 4.3 # Measurable performance improvements or declines based on consultations with relevant AI actors, including affected communities, and field data about context-relevant risks and trustworthiness characteristics are identified and documented. [@playbook]
+Measure 4.</description>
+    </item>
+    
+  </channel>
+</rss>
