@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI RMM</title>
-    <link>https://airmm.github.io/docs/framework/</link>
+    <link>https://breadchris.github.io/ai-rmm/docs/framework/</link>
     <description>Recent content on AI RMM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://airmm.github.io/docs/framework/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://breadchris.github.io/ai-rmm/docs/framework/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

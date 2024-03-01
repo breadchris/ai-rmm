@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/ai-rmm/sw.js",{scope:"/ai-rmm/"})

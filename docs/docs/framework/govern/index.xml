@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI RMM</title>
-    <link>https://airmm.github.io/docs/framework/govern/</link>
+    <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/</link>
     <description>Recent content on AI RMM</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://airmm.github.io/docs/framework/govern/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://breadchris.github.io/ai-rmm/docs/framework/govern/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1 # Policies, processes, procedures, and practices across the organization related to the mapping, measuring, and managing of AI risks are in place, transparent, and implemented effectively. [@airmf]
 Govern 1.1 # Legal and regulatory requirements involving AI are understood, managed, and documented.</description>
@@ -19,10 +19,10 @@ Govern 1.1 # Legal and regulatory requirements involving AI are understood, mana
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.2 # The characteristics of trustworthy AI are integrated into organizational policies, processes, procedures, and practices. [@playbook]
 Govern 1.2.1. Define and document the characteristics of trustworthy AI. # Defining and documenting the characteristics of trustworthy AI involves establishing clear guidelines that embody principles such as fairness, transparency, accountability, privacy, and security within AI systems.</description>
@@ -30,10 +30,10 @@ Govern 1.2.1. Define and document the characteristics of trustworthy AI. # Defin
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.3/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.3/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.3/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.3 # Processes, procedures, and practices are in place to determine the needed level of risk management activities based on the organization&amp;rsquo;s risk tolerance. [@playbook]
 Govern 1.3.1. Establish an organizational risk tolerance framework.</description>
@@ -41,10 +41,10 @@ Govern 1.3.1. Establish an organizational risk tolerance framework.</description
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.4/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.4/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.4/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.4 # The risk management process and its outcomes are established through transparent policies, procedures, and other controls based on organizational risk priorities. [@playbook]
 Govern 1.4.1. Establish clear risk management policies. # Establishing clear risk management policies is pivotal for setting the foundation of a robust AI risk management framework within an organization.</description>
@@ -52,20 +52,20 @@ Govern 1.4.1. Establish clear risk management policies. # Establishing clear ris
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.5/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.5/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.5/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.5 # Ongoing monitoring and periodic review of the risk management process and its outcomes are planned and organizational roles and responsibilities clearly defined, including determining the frequency of periodic review. [@playbook]</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.6/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.6/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.6/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.6 # Mechanisms are in place to inventory AI systems and are resourced according to organizational risk priorities. [@playbook]
 Govern 1.6.1. Inventory AI systems. # Creating an inventory of AI systems within an organization is a critical first step towards effective AI governance and risk management.</description>
@@ -73,10 +73,10 @@ Govern 1.6.1. Inventory AI systems. # Creating an inventory of AI systems within
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-1.7/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-1.7/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-1.7/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 1.7 # Processes and procedures are in place for decommissioning and phasing out AI systems safely and in a manner that does not increase risks or decrease the organization’s trustworthiness. [@playbook]
 Govern 1.</description>
@@ -84,10 +84,10 @@ Govern 1.</description>
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-2.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-2.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 2 # Accountability structures are in place so that the appropriate teams and individuals are empowered, responsible, and trained for mapping, measuring, and managing AI risks. [@airmf]
 Govern 2.1 # Roles and responsibilities and lines of communication related to mapping, measuring, and managing AI risks are documented and are clear to individuals and teams throughout the organization.</description>
@@ -95,10 +95,10 @@ Govern 2.1 # Roles and responsibilities and lines of communication related to ma
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-2.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-2.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 2.2 # The organization’s personnel and partners receive AI risk management training to enable them to perform their duties and responsibilities consistent with related policies, procedures, and agreements. [@playbook]
 Govern 2.2.1. Develop and Implement a Comprehensive AI Risk Management Training Program.</description>
@@ -106,10 +106,10 @@ Govern 2.2.1. Develop and Implement a Comprehensive AI Risk Management Training 
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-2.3/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-2.3/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-2.3/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 2.3 # Executive leadership of the organization takes responsibility for decisions about risks associated with AI system development and deployment. [@playbook]
 Govern 2.3.1. Establish an AI Risk Management Leadership Council. # To effectively manage risks associated with AI system development and deployment, establish an AI Risk Management Leadership Council comprising key executives and stakeholders.</description>
@@ -117,10 +117,10 @@ Govern 2.3.1. Establish an AI Risk Management Leadership Council. # To effective
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-3.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-3.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-3.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-3.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 3 # Workforce diversity, equity, inclusion, and accessibility processes are prioritized in the mapping, measuring, and managing of AI risks throughout the lifecycle. [@airmf]
 Govern 3.1 # Decision-making related to mapping, measuring, and managing AI risks throughout the lifecycle is informed by a diverse team (e.</description>
@@ -128,10 +128,10 @@ Govern 3.1 # Decision-making related to mapping, measuring, and managing AI risk
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-3.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-3.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-3.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-3.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 3.2 # Policies and procedures are in place to define and differentiate roles and responsibilities for human-AI configurations and oversight of AI systems. [@playbook]
 Govern 3.2.1. Establish Clear Roles and Responsibilities. # To ensure effective oversight of AI systems and human-AI configurations, organizations must establish clear roles and responsibilities for all involved parties.</description>
@@ -139,10 +139,10 @@ Govern 3.2.1. Establish Clear Roles and Responsibilities. # To ensure effective 
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-4.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-4.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 4 # Organizational teams are committed to a culture that considers and communicates AI risk. [@airmf]
 Govern 4.1 # Organizational policies and practices are in place to foster a critical thinking and safety-first mindset in the design, development, deployment, and uses of AI systems to minimize potential negative impacts.</description>
@@ -150,10 +150,10 @@ Govern 4.1 # Organizational policies and practices are in place to foster a crit
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-4.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-4.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 4.2 # Organizational teams document the risks and potential impacts of the AI technology they design, develop, deploy, evaluate, and use, and they communicate about the impacts more broadly. [@playbook]
 Govern 4.2.1. Establish a Risk Documentation Process.</description>
@@ -161,10 +161,10 @@ Govern 4.2.1. Establish a Risk Documentation Process.</description>
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-4.3/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-4.3/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-4.3/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 4.3 # Organizational practices are in place to enable AI testing, identification of incidents, and information sharing. [@playbook]
 Govern 4.3.1. Establish a Comprehensive Testing Strategy. # To establish a comprehensive testing strategy, organizations must define clear objectives and methodologies for evaluating AI systems throughout their development lifecycle.</description>
@@ -172,10 +172,10 @@ Govern 4.3.1. Establish a Comprehensive Testing Strategy. # To establish a compr
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-5.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-5.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-5.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-5.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 5 # Processes are in place for robust engagement with relevant AI actors. [@airmf]
 Govern 5.1 # Organizational policies and practices are in place to collect, consider, prioritize, and integrate feedback from those external to the team that developed or deployed the AI system regarding the potential individual and societal impacts related to AI risks.</description>
@@ -183,10 +183,10 @@ Govern 5.1 # Organizational policies and practices are in place to collect, cons
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-5.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-5.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-5.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-5.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 5.2 # Mechanisms are established to enable the team that developed or deployed AI systems to regularly incorporate adjudicated feedback from relevant AI actors into system design and implementation. [@playbook]
 Govern 5.2.1. Establish an Adjudication Process.</description>
@@ -194,10 +194,10 @@ Govern 5.2.1. Establish an Adjudication Process.</description>
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-6.1/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-6.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-6.1/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-6.1/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 6 # Policies and procedures are in place to address AI risks and benefits arising from third-party software and data and other supply chain issues. [@airmf]
 Govern 6.1: # Policies and procedures are in place that address AI risks associated with third-party entities, including risks of infringement of a third-party’s intellectual property or other rights.</description>
@@ -205,10 +205,10 @@ Govern 6.1: # Policies and procedures are in place that address AI risks associa
     
     <item>
       <title></title>
-      <link>https://airmm.github.io/docs/framework/govern/govern-6.2/</link>
+      <link>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-6.2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://airmm.github.io/docs/framework/govern/govern-6.2/</guid>
+      <guid>https://breadchris.github.io/ai-rmm/docs/framework/govern/govern-6.2/</guid>
       <description>//: # (Copyright (C) 2024 RiskFrame.ai https://www.riskframe.ai https://github.com/riskframe/ai-rmm) //: # (SOFTWARE LICENSE) //: # (This file is part of AI-RMM, which is distributed under GNU General Public License V3. See LICENSE.txt to get a full copy.)
 Govern 6.2 # Contingency processes are in place to handle failures or incidents in third-party data or AI systems deemed to be high-risk. [@playbook]
 Govern 6.2.1. Identify High-Risk Third-Party Data and AI Systems. # To effectively manage potential failures or incidents in third-party data or AI systems, it&amp;rsquo;s essential to first identify those considered high-risk.</description>

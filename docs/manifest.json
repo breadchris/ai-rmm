@@ -1,14 +1,14 @@
 {
   "name": "AI RMM",
   "short_name": "AI RMM",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/ai-rmm/",
+  "scope": "/ai-rmm/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/ai-rmm/favicon.svg",
       "sizes": "512x512"
     }
   ]
